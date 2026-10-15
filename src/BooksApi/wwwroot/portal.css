@@ -148,3 +148,8 @@ footer { margin-top: 4rem; padding: 2rem 0; border-top: 1px solid var(--line); c
 .swatch p strong { display: block; font-family: var(--font-body); font-size: .88rem; }
 .covers { display: grid; grid-template-columns: repeat(auto-fill, minmax(120px, 1fr)); gap: 1rem; }
 .covers img { width: 100%; aspect-ratio: 2/3; border-radius: 3px 8px 8px 3px; box-shadow: 0 10px 22px -10px rgba(0,0,0,.45); }
+
+.ico { display: inline-block; width: 1.05em; height: 1.05em; vertical-align: -0.17em; flex: none; }
+
+/* flat cards: no outlines or rounded corners */
+.card, .swatch, .principles div, .stage, .logo-tile, .type-sample { border: 0 !important; border-radius: 0 !important; box-shadow: none !important; }

@@ -33,11 +33,11 @@
           <a class="btn btn--primary" href="#key">მიიღე API გასაღები</a>
           <a class="btn" href="/docs.html">დოკუმენტაცია</a>
           <a class="btn" href="/docs.html?doc=brief">პროექტის დავალება</a>
-          <a class="btn btn--dark" href="/app/">სადემონსტრაციო საიტი ↗</a>
+          <a class="btn btn--dark" href="/app/">სადემონსტრაციო საიტი <svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7"/><path d="M8 7h9v9"/></svg></a>
         </div>
       </div>
       <div class="card" id="key">
-        <h2 style="font-size:1.35rem">🔑 API გასაღები</h2>
+        <h2 style="font-size:1.35rem"><svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="8" cy="15" r="4"/><path d="m11 12 9-9M17 6l3 3M15 8l2 2"/></svg> API გასაღები</h2>
         <p class="small muted" style="margin-top:-.3rem">გასაღები თქვენი პროექტის „sandbox“-ია: თქვენი მომხმარებლები, გამოწერები და წიგნები მხოლოდ მასზე ჩანს. ერთი სტუდენტი — ერთი გასაღები.</p>
         <form id="key-form" novalidate>
           <div class="field"><label for="name">სახელი და გვარი</label><input class="input" id="name" name="name" required placeholder="ნინო ბერიძე"><div class="error" data-for="name"></div></div>
@@ -48,7 +48,7 @@
         </form>
         <div id="key-result" hidden>
           <div class="key-box">
-            <div class="small" style="font-weight:600;margin-bottom:.35rem">✅ თქვენი გასაღები — შეინახეთ, მეორედ ვეღარ ნახავთ:</div>
+            <div class="small" style="font-weight:600;margin-bottom:.35rem"><svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="m8 12 3 3 5-6"/></svg> თქვენი გასაღები — შეინახეთ, მეორედ ვეღარ ნახავთ:</div>
             <code id="key-value"></code>
             <div style="margin-top:.6rem"><button class="btn btn--sm" id="copy-key">კოპირება</button></div>
           </div>
@@ -115,13 +115,13 @@ const { url } = await api('/api/books/12/read', { token: auth.accessToken }); //
         <table class="tbl" style="border:0">
           <thead><tr><th>ჯგუფი</th><th>რა არის შიგნით</th><th>მაგალითი</th></tr></thead>
           <tbody>
-            <tr><td>🔐 Auth</td><td>რეგისტრაცია, ელ-ფოსტის დადასტურება, შესვლა, JWT + refresh, პაროლის აღდგენა</td><td><code>POST /api/auth/login</code></td></tr>
-            <tr><td>📚 Books</td><td>კატალოგი ძებნით/ფილტრებით/პაგინაციით, დეტალები, სარჩევი, signed PDF ბმულები</td><td><code>GET /api/books?q=&amp;sort=rating</code></td></tr>
-            <tr><td>💳 Subscription</td><td>გეგმები, 7-დღიანი საცდელი, გადახდა სატესტო ბარათით, გაუქმება/აღდგენა, გეგმის შეცვლა</td><td><code>POST /api/subscription/checkout</code></td></tr>
-            <tr><td>🔖 Library</td><td>რჩეულები, კითხვის პროგრესი, სტატისტიკა და აქტივობის კალენდარი</td><td><code>PUT /api/library/progress/12</code></td></tr>
-            <tr><td>⭐ Reviews</td><td>1–5 ვარსკვლავი და კომენტარები</td><td><code>POST /api/books/12/reviews</code></td></tr>
-            <tr><td>🛠 Admin</td><td>დაფა, წიგნების CRUD + PDF/ყდის ატვირთვა, კატეგორიები, მომხმარებლები, გადახდები</td><td><code>GET /api/admin/stats</code></td></tr>
-            <tr><td>🧪 Sandbox</td><td>წერილების ინბოქსი, სატესტო ბარათები, „დროში მოგზაურობა“</td><td><code>POST /api/sandbox/time-travel</code></td></tr>
+            <tr><td><svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="4" y="11" width="16" height="10" rx="2"/><path d="M8 11V7a4 4 0 0 1 8 0v4"/></svg> Auth</td><td>რეგისტრაცია, ელ-ფოსტის დადასტურება, შესვლა, JWT + refresh, პაროლის აღდგენა</td><td><code>POST /api/auth/login</code></td></tr>
+            <tr><td><svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 19.5V5a2 2 0 0 1 2-2h14v15H6.5A2.5 2.5 0 0 0 4 20.5 2.5 2.5 0 0 0 6.5 23H20v-5"/></svg> Books</td><td>კატალოგი ძებნით/ფილტრებით/პაგინაციით, დეტალები, სარჩევი, signed PDF ბმულები</td><td><code>GET /api/books?q=&amp;sort=rating</code></td></tr>
+            <tr><td><svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="5" width="20" height="14" rx="2"/><path d="M2 10h20"/></svg> Subscription</td><td>გეგმები, 7-დღიანი საცდელი, გადახდა სატესტო ბარათით, გაუქმება/აღდგენა, გეგმის შეცვლა</td><td><code>POST /api/subscription/checkout</code></td></tr>
+            <tr><td><svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 3h12v18l-6-4-6 4z"/></svg> Library</td><td>რჩეულები, კითხვის პროგრესი, სტატისტიკა და აქტივობის კალენდარი</td><td><code>PUT /api/library/progress/12</code></td></tr>
+            <tr><td><svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m12 2.8 2.8 5.8 6.4.9-4.6 4.5 1.1 6.3L12 17.3l-5.7 3 1.1-6.3-4.6-4.5 6.4-.9z"/></svg> Reviews</td><td>1–5 ვარსკვლავი და კომენტარები</td><td><code>POST /api/books/12/reviews</code></td></tr>
+            <tr><td><svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14.7 6.3a4 4 0 0 0-5.4 5.4L3 18l3 3 6.3-6.3a4 4 0 0 0 5.4-5.4l-2.4 2.4-2.6-.6-.6-2.6z"/></svg> Admin</td><td>დაფა, წიგნების CRUD + PDF/ყდის ატვირთვა, კატეგორიები, მომხმარებლები, გადახდები</td><td><code>GET /api/admin/stats</code></td></tr>
+            <tr><td><svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 3h6M10 3v6L4 19a2 2 0 0 0 1.7 3h12.6a2 2 0 0 0 1.7-3l-6-10V3"/></svg> Sandbox</td><td>წერილების ინბოქსი, სატესტო ბარათები, „დროში მოგზაურობა“</td><td><code>POST /api/sandbox/time-travel</code></td></tr>
           </tbody>
         </table>
       </div>

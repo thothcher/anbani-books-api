@@ -100,7 +100,7 @@ export default {
   reviews: {
     title: 'Reviews', sorts: { newest: 'Newest first', highest: 'Highest first', lowest: 'Lowest first' },
     writeTitle: 'Rate this book', editTitle: 'Edit your review', yourRating: 'Your rating', comment: 'Comment',
-    placeholder: 'What did you like or not? (no spoilers 🙂)', submit: 'Publish', saved: 'Review saved', deleted: 'Review deleted',
+    placeholder: 'What did you like or not? (no spoilers)', submit: 'Publish', saved: 'Review saved', deleted: 'Review deleted',
     deleteTitle: 'Delete this review?', deleteText: 'This can\'t be undone.', yours: 'Yours', more: 'Show more',
     empty: 'No reviews yet. Be the first!', loginToReview: 'To write a review,',
   },
@@ -125,7 +125,7 @@ export default {
     freeNo: 'The full library', createAccount: 'Create an account',
     yourStatus: 'Your subscription: {status}.', until: 'Valid until {date}.', manage: 'Manage',
     sandboxTitle: 'Sandbox', sandboxText: 'Payments are simulated — no real money moves. Use a test card such as',
-    trialStarted: 'Your free trial has started! Happy reading 📚',
+    trialStarted: 'Your free trial has started! Happy reading.',
     switchTitle: 'Switch to the {plan} plan?', switchText: 'Your saved card will be charged {price} now and a new period starts today.', switchConfirm: 'Switch', switched: 'Plan changed',
   },
   checkout: {
@@ -185,7 +185,7 @@ export default {
     startTrial: 'Start for free', subscribe: 'Subscribe', subscribeNow: 'Subscribe now', addCard: 'Add a card', changeCard: 'Change card',
     cancel: 'Cancel subscription', cancelTrial: 'Cancel trial', resume: 'Resume subscription',
     cancelTitle: 'Cancel your subscription?', cancelText: 'You keep access until {date}. You can change your mind before then.', cancelConfirm: 'Yes, cancel',
-    canceled: 'Subscription canceled', resumed: 'Subscription resumed 🎉',
+    canceled: 'Subscription canceled', resumed: 'Subscription resumed',
     cardModalTitle: 'Save a card', cardModalText: 'During a trial, saving a card means "charge me when the trial ends and keep going". Test cards only.', cardSaved: 'Card saved',
     whatYouGet: 'What you have now', perkRead: 'Read every book in the library', perkDownload: 'Download PDFs (annual plan)', perkPreview: 'Previews and free books',
   },
@@ -201,7 +201,7 @@ export default {
     tabs: { reading: 'Reading', favorites: 'Favorites', finished: 'Finished' }, shelf: 'Shelf',
     pageOf: 'p. {page} of {total}', continue: 'Continue', remove: 'Remove from history', removed: 'Removed from history', browse: 'Browse the library',
     emptyReadingTitle: 'You are not reading anything yet', emptyReadingText: 'Open any book — your progress will show up here.',
-    emptyFavoritesTitle: 'No favorites yet', emptyFavoritesText: 'Tap ❤ on a book so you don\'t lose it.',
+    emptyFavoritesTitle: 'No favorites yet', emptyFavoritesText: 'Tap the heart on a book so you don\'t lose it.',
     emptyFinishedTitle: 'No finished books yet', emptyFinishedText: 'Reach the last page and the book moves here.',
   },
 

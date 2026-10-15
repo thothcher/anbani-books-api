@@ -30,7 +30,7 @@
       <div class="kpis" id="kpis"></div>
 
       <details class="card" style="margin-bottom:1.5rem">
-        <summary style="cursor:pointer;font-weight:600">➕ გასაღების გაცემა სტუდენტისთვის</summary>
+        <summary style="cursor:pointer;font-weight:600"><svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg> გასაღების გაცემა სტუდენტისთვის</summary>
         <form id="create" style="display:grid;grid-template-columns:1fr 1fr 1fr auto;gap:.75rem;margin-top:1rem;align-items:end">
           <div><label for="c-name">სახელი</label><input class="input" id="c-name" name="name" required></div>
           <div><label for="c-email">ელ-ფოსტა</label><input class="input" id="c-email" name="email" type="email"></div>
@@ -117,7 +117,7 @@
             <td class="small">${ago(k.lastUsedAt)}</td>
             <td class="small">${k.requestCount.toLocaleString('en-US')}<br><span class="muted">${k.errorCount} შეცდომა</span></td>
             <td><div class="milestones" title="${done}/${MILESTONES.length}">${MILESTONES.map((m) => `<i class="${hit.has(m[1]) ? 'on' : ''}" title="${esc(m[0])}"></i>`).join('')}</div><span class="small muted">${done}/${MILESTONES.length}</span></td>
-            <td class="small">👤 ${k.users} · 💳 ${k.subscriptions}<br>📚 ${k.customBooks} · ⭐ ${k.reviews}</td>
+            <td class="small"><svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="8" r="4"/><path d="M4 21a8 8 0 0 1 16 0"/></svg> ${k.users} · <svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="5" width="20" height="14" rx="2"/><path d="M2 10h20"/></svg> ${k.subscriptions}<br><svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 19.5V5a2 2 0 0 1 2-2h14v15H6.5A2.5 2.5 0 0 0 4 20.5 2.5 2.5 0 0 0 6.5 23H20v-5"/></svg> ${k.customBooks} · <svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m12 2.8 2.8 5.8 6.4.9-4.6 4.5 1.1 6.3L12 17.3l-5.7 3 1.1-6.3-4.6-4.5 6.4-.9z"/></svg> ${k.reviews}</td>
             <td style="white-space:nowrap">
               <button class="btn btn--sm" data-toggle="${k.id}">${open.has(k.id) ? 'დამალვა' : 'დეტალები'}</button>
               <button class="btn btn--sm" data-active="${k.id}" data-to="${!k.isActive}">${k.isActive ? 'გათიშვა' : 'ჩართვა'}</button>
@@ -146,7 +146,7 @@
       e.preventDefault();
       try {
         const k = await call('POST', '/api/teacher/keys', Object.fromEntries(new FormData(e.target)));
-        document.getElementById('created').innerHTML = `✅ ${esc(k.name)}: <code>${esc(k.apiKey)}</code> — გადაეცით სტუდენტს.`;
+        document.getElementById('created').innerHTML = `<svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="m8 12 3 3 5-6"/></svg> ${esc(k.name)}: <code>${esc(k.apiKey)}</code> — გადაეცით სტუდენტს.`;
         e.target.reset();
         load();
       } catch (err) { document.getElementById('created').textContent = err?.detail ?? 'შეცდომა'; }

@@ -113,7 +113,7 @@ function hintFor(e) {
   const code = e.responseBody?.code;
   if (!code) return '';
   const hint = t(`dev.hints.${code}`);
-  return hint === `dev.hints.${code}` ? '' : html`<div class="netlog__hint">💡 ${hint}</div>`;
+  return hint === `dev.hints.${code}` ? '' : html`<div class="netlog__hint">${icon('info')} ${hint}</div>`;
 }
 
 /** Pretty-prints JSON with syntax colors (input is escaped first). */

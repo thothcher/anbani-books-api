@@ -118,7 +118,7 @@ async function books(box, ctx) {
 async function editor(box, ctx) {
   const isNew = ctx.params.id === 'new';
   const [categories, book] = await Promise.all([get('/api/categories'), isNew ? Promise.resolve(null) : get(`/api/books/${ctx.params.id}`)]);
-  if (book?.isSystem) return render(box, emptyState({ letter: '🔒', title: t('admin.builtIn'), text: t('admin.builtInHint'), action: html`<a class="btn" href="#/admin/books">${t('admin.sections.books')}</a>` }));
+  if (book?.isSystem) return render(box, emptyState({ letter: 'ა', title: t('admin.builtIn'), text: t('admin.builtInHint'), action: html`<a class="btn" href="#/admin/books">${t('admin.sections.books')}</a>` }));
   const b = book ?? { title: '', author: '', translator: '', description: '', tags: [], language: 'ka', year: '', isFree: false, category: { id: categories[0]?.id } };
   const field = (name, label, input, cls = '') => html`<div class="field ${cls}"><label class="field__label" for="b-${name}">${label}</label>${input}<span class="field__error"></span></div>`;
 

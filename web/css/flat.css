@@ -1,0 +1,26 @@
+/* Flat surfaces: cards are separated from the page by their background tone only —
+   no outlines, no rounded corners, no drop shadows. Buttons, inputs and pills keep their shapes. */
+.card, .panel, .plan, .plan--popular, .continue-card, .book-card--list, .kpi, .stat,
+.cat-card, .hcard, .member-card, .modal, .menu__panel, .table-wrap, .footer__panel,
+.alert, .filters, .tile, .journal-card__media, .culture__media .tile, .marquee__item .tile,
+.admin__nav, .success-card, .dropzone, .test-cards button, .demo-accounts__list button,
+.site-banner, .toast, .skeleton, .search-result, .review--mine {
+  border: 0 !important;
+  border-radius: 0 !important;
+  box-shadow: none !important;
+}
+.plan--current { outline: 2px solid var(--forest); outline-offset: -2px; }
+.cat-card { background: var(--card); }
+.cat-card.is-active { background: var(--ink); }
+.cat-card__thumb, .hero__tab img, .continue-card .cover, .shot img { border-radius: 0; }
+.test-cards button, .demo-accounts__list button { background: var(--card); }
+.test-cards button:hover, .demo-accounts__list button:hover { background: var(--paper-2); }
+.dropzone { background: var(--card-2); }
+.dropzone:hover, .dropzone.is-over { background: var(--cinnabar-soft); }
+.plan { background: var(--card); }
+.plan.plan--popular { background: var(--espresso); }
+.membership .plan { background: rgba(232, 244, 208, 0.06); }
+.membership .plan--popular { background: rgba(232, 244, 208, 0.13); }
+.hcard { background: rgba(36, 22, 15, 0.62); }
+.book-card--list { background: var(--card); }
+.library-stats, .catalog__bar { border-color: var(--line); }
