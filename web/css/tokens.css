@@ -1,0 +1,188 @@
+/* ──────────────────────────────────────────────────────────────────────────
+   Anbani design tokens — "espresso & latte"
+   An editorial look: deep espresso-brown stages, latte-cream paper with a
+   faint speckle, one cinnabar-red seal, condensed capitals for statements
+   and a light serif for everything that should feel like a book.
+   Light theme = cream pages between dark sections. Dark theme = espresso everywhere.
+   ────────────────────────────────────────────────────────────────────────── */
+:root {
+  /* the core pair */
+  --espresso: #2a1a13;
+  --espresso-2: #35231a;
+  --espresso-3: #4b3128;
+  --espresso-4: #6b4a3c;
+  --latte: #edd2bf;
+  --latte-2: #e0bea9;
+  --foam: #fcf5ef;
+
+  /* cream pages */
+  --paper: #f3e3d5;
+  --paper-2: #ead5c4;
+  --paper-3: #dec3b0;
+  --card: #fbf3ec;
+  --card-2: #f7ebe1;
+  --overlay: rgba(26, 15, 10, 0.58);
+
+  /* text */
+  --ink: #2a1a13;
+  --ink-2: #5a4237;
+  --ink-3: #8b7266;
+  --ink-inverse: #fcf5ef;
+
+  /* lines */
+  --line: rgba(42, 26, 19, 0.13);
+  --line-2: rgba(42, 26, 19, 0.24);
+
+  /* accents */
+  --cinnabar: #c42d1c;
+  --cinnabar-strong: #a42314;
+  --cinnabar-soft: #f6d8cd;
+  --cinnabar-ink: #8e1f12;
+  --sun: #f2c230;
+  --night-forest: #16231b;
+  --lime: #e8f4d0;
+  --lapis: #22406b;
+  --lapis-soft: #dbe3ef;
+  --gold: #a87924;
+  --gold-soft: #f0dfbb;
+  --forest: #2c6648;
+  --forest-soft: #d8eadc;
+  --amber: #a9661a;
+  --amber-soft: #f4e0c6;
+
+  /* status */
+  --success: var(--forest);
+  --success-soft: var(--forest-soft);
+  --warning: var(--amber);
+  --warning-soft: var(--amber-soft);
+  --danger: var(--cinnabar);
+  --danger-soft: var(--cinnabar-soft);
+  --info: var(--lapis);
+  --info-soft: var(--lapis-soft);
+
+  /* type: a light serif for titles, condensed capitals for statements, a geometric sans for UI.
+     Every stack falls back to a Noto Georgian family, so Georgian text is always covered. */
+  --font-display: "Newsreader", "Noto Serif Georgian", Georgia, "Times New Roman", serif;
+  --font-cond: "Barlow Condensed", "Noto Sans Georgian", "Arial Narrow", sans-serif;
+  --font-body: "DM Sans", "Noto Sans Georgian", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, "Cascadia Code", Consolas, monospace;
+  --text-xs: 0.75rem;
+  --text-sm: 0.875rem;
+  --text-md: 1rem;
+  --text-lg: 1.125rem;
+  --text-xl: 1.375rem;
+  --text-2xl: 1.75rem;
+  --text-3xl: clamp(2.1rem, 1.5rem + 2.4vw, 3rem);
+  --text-4xl: clamp(2.6rem, 1.6rem + 4vw, 4.6rem);
+  --text-hero: clamp(3rem, 1.4rem + 5.6vw, 6.2rem);
+  --text-caps: clamp(3.2rem, 1.2rem + 7.4vw, 8.4rem);
+
+  /* shape */
+  --radius-xs: 6px;
+  --radius-s: 10px;
+  --radius: 14px;
+  --radius-l: 20px;
+  --radius-xl: 28px;
+  --pill: 999px;
+
+  --shadow-1: 0 1px 2px rgba(42, 26, 19, 0.06), 0 2px 8px rgba(42, 26, 19, 0.05);
+  --shadow-2: 0 2px 4px rgba(42, 26, 19, 0.05), 0 14px 32px -12px rgba(42, 26, 19, 0.28);
+  --shadow-3: 0 28px 70px -22px rgba(26, 15, 10, 0.5);
+  --shadow-book: 0 1px 1px rgba(0, 0, 0, 0.1), 0 10px 22px -8px rgba(42, 26, 19, 0.45), 0 26px 44px -22px rgba(42, 26, 19, 0.5);
+
+  --ring: 0 0 0 3px rgba(196, 45, 28, 0.3);
+
+  /* the faint speckle on cream paper */
+  --grain: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='260' height='260'%3E%3Ccircle cx='0.0' cy='239.4' r='0.61' fill='%233d2a20' fill-opacity='0.19'/%3E%3Ccircle cx='138.5' cy='85.6' r='1.03' fill='%23b8402c' fill-opacity='0.38'/%3E%3Ccircle cx='178.0' cy='165.3' r='1.09' fill='%237a4c38' fill-opacity='0.20'/%3E%3Ccircle cx='184.1' cy='181.5' r='0.40' fill='%23b8402c' fill-opacity='0.36'/%3E%3Ccircle cx='239.8' cy='209.9' r='0.46' fill='%23a0826f' fill-opacity='0.30'/%3E%3Ccircle cx='179.0' cy='167.4' r='0.87' fill='%23a0826f' fill-opacity='0.44'/%3E%3Ccircle cx='96.8' cy='87.2' r='1.10' fill='%235a3a2c' fill-opacity='0.24'/%3E%3Ccircle cx='77.4' cy='111.4' r='0.62' fill='%23b8402c' fill-opacity='0.45'/%3E%3Ccircle cx='189.6' cy='228.2' r='0.40' fill='%23b8402c' fill-opacity='0.22'/%3E%3Ccircle cx='132.3' cy='109.6' r='0.52' fill='%235a3a2c' fill-opacity='0.44'/%3E%3Ccircle cx='95.0' cy='89.5' r='0.95' fill='%23b8402c' fill-opacity='0.44'/%3E%3Ccircle cx='43.0' cy='105.5' r='0.61' fill='%23b8402c' fill-opacity='0.25'/%3E%3Ccircle cx='86.5' cy='138.2' r='0.90' fill='%23a0826f' fill-opacity='0.20'/%3E%3Ccircle cx='119.0' cy='224.4' r='0.92' fill='%23b8402c' fill-opacity='0.34'/%3E%3Ccircle cx='131.3' cy='179.1' r='1.20' fill='%233d2a20' fill-opacity='0.26'/%3E%3Ccircle cx='65.3' cy='152.6' r='0.67' fill='%237a4c38' fill-opacity='0.24'/%3E%3Ccircle cx='206.6' cy='228.2' r='0.45' fill='%235a3a2c' fill-opacity='0.41'/%3E%3Ccircle cx='105.8' cy='39.9' r='0.42' fill='%237a4c38' fill-opacity='0.47'/%3E%3Ccircle cx='164.4' cy='37.5' r='0.76' fill='%235a3a2c' fill-opacity='0.33'/%3E%3Ccircle cx='239.7' cy='230.0' r='1.15' fill='%23a0826f' fill-opacity='0.43'/%3E%3Ccircle cx='197.9' cy='71.6' r='0.36' fill='%235a3a2c' fill-opacity='0.21'/%3E%3Ccircle cx='0.4' cy='160.4' r='0.56' fill='%23b8402c' fill-opacity='0.38'/%3E%3Ccircle cx='178.8' cy='61.9' r='1.14' fill='%237a4c38' fill-opacity='0.20'/%3E%3Ccircle cx='232.5' cy='30.8' r='0.79' fill='%23a0826f' fill-opacity='0.12'/%3E%3Ccircle cx='165.6' cy='239.8' r='0.37' fill='%235a3a2c' fill-opacity='0.44'/%3E%3Ccircle cx='251.9' cy='147.0' r='0.96' fill='%237a4c38' fill-opacity='0.21'/%3E%3Ccircle cx='54.3' cy='146.7' r='0.40' fill='%233d2a20' fill-opacity='0.39'/%3E%3Ccircle cx='185.7' cy='129.5' r='0.38' fill='%23a0826f' fill-opacity='0.16'/%3E%3Ccircle cx='34.0' cy='178.8' r='1.15' fill='%23a0826f' fill-opacity='0.13'/%3E%3Ccircle cx='224.0' cy='258.1' r='1.21' fill='%23b8402c' fill-opacity='0.39'/%3E%3Ccircle cx='64.5' cy='189.2' r='1.14' fill='%237a4c38' fill-opacity='0.26'/%3E%3Ccircle cx='105.3' cy='230.6' r='0.85' fill='%233d2a20' fill-opacity='0.24'/%3E%3Ccircle cx='191.1' cy='87.1' r='1.00' fill='%235a3a2c' fill-opacity='0.27'/%3E%3Ccircle cx='81.0' cy='256.2' r='1.24' fill='%23a0826f' fill-opacity='0.34'/%3E%3Ccircle cx='238.8' cy='51.9' r='0.93' fill='%23b8402c' fill-opacity='0.17'/%3E%3Ccircle cx='144.9' cy='200.6' r='1.20' fill='%235a3a2c' fill-opacity='0.29'/%3E%3Ccircle cx='116.1' cy='43.2' r='0.95' fill='%23b8402c' fill-opacity='0.30'/%3E%3Ccircle cx='131.8' cy='196.9' r='0.68' fill='%235a3a2c' fill-opacity='0.38'/%3E%3Ccircle cx='77.7' cy='140.8' r='0.53' fill='%237a4c38' fill-opacity='0.37'/%3E%3Ccircle cx='61.3' cy='171.5' r='0.74' fill='%233d2a20' fill-opacity='0.15'/%3E%3Ccircle cx='213.9' cy='238.0' r='1.17' fill='%23a0826f' fill-opacity='0.36'/%3E%3Ccircle cx='6.6' cy='198.1' r='0.89' fill='%23a0826f' fill-opacity='0.37'/%3E%3Ccircle cx='9.6' cy='35.3' r='0.42' fill='%235a3a2c' fill-opacity='0.16'/%3E%3Ccircle cx='2.5' cy='157.3' r='1.20' fill='%235a3a2c' fill-opacity='0.19'/%3E%3Ccircle cx='52.6' cy='175.5' r='0.57' fill='%23a0826f' fill-opacity='0.28'/%3E%3Ccircle cx='109.9' cy='175.2' r='1.05' fill='%23b8402c' fill-opacity='0.26'/%3E%3C/svg%3E");
+
+  /* layout */
+  --container: 1280px;
+  --gutter: clamp(16px, 3vw, 28px);
+  --header-h: 104px; /* room kept free for the floating header */
+
+  --ease: cubic-bezier(0.2, 0.7, 0.2, 1);
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+  --fast: 160ms;
+  --slow: 380ms;
+
+  color-scheme: light;
+}
+
+:root[data-theme="dark"] {
+  --espresso: #160d09;
+  --espresso-2: #21140e;
+  --espresso-3: #3a261d;
+  --espresso-4: #5a3d31;
+
+  --paper: #1f130e;
+  --paper-2: #2b1b14;
+  --paper-3: #3a261d;
+  --card: #2a1a13;
+  --card-2: #312019;
+  --overlay: rgba(0, 0, 0, 0.66);
+
+  --ink: #f3e2d3;
+  --ink-2: #d6bba9;
+  --ink-3: #a4897a;
+  --ink-inverse: #2a1a13;
+
+  --line: rgba(237, 210, 191, 0.12);
+  --line-2: rgba(237, 210, 191, 0.22);
+
+  --cinnabar: #e4523d;
+  --cinnabar-strong: #f06b56;
+  --cinnabar-soft: #43201a;
+  --cinnabar-ink: #f6a090;
+  --lapis: #93b4de;
+  --lapis-soft: #1d2836;
+  --gold: #d9ac52;
+  --gold-soft: #3a2c19;
+  --forest: #80c49e;
+  --forest-soft: #1a2c22;
+  --amber: #e4ad57;
+  --amber-soft: #3b2a18;
+
+  --shadow-1: 0 1px 2px rgba(0, 0, 0, 0.45);
+  --shadow-2: 0 14px 32px -12px rgba(0, 0, 0, 0.65);
+  --shadow-3: 0 28px 70px -22px rgba(0, 0, 0, 0.8);
+  --shadow-book: 0 10px 22px -8px rgba(0, 0, 0, 0.65), 0 26px 44px -22px rgba(0, 0, 0, 0.75);
+  --ring: 0 0 0 3px rgba(228, 82, 61, 0.38);
+
+  color-scheme: dark;
+}
+
+/* ── section contexts: components inside read these, so a card or a button
+      "just works" on an espresso stage or on the night-forest band ─────────── */
+.on-dark {
+  --paper: var(--espresso);
+  --paper-2: var(--espresso-2);
+  --paper-3: var(--espresso-3);
+  --card: var(--espresso-2);
+  --card-2: color-mix(in srgb, var(--espresso-2) 70%, var(--espresso-3));
+  --ink: var(--latte);
+  --ink-2: color-mix(in srgb, var(--latte) 78%, transparent);
+  --ink-3: color-mix(in srgb, var(--latte) 56%, transparent);
+  --ink-inverse: var(--espresso);
+  --line: rgba(237, 210, 191, 0.14);
+  --line-2: rgba(237, 210, 191, 0.26);
+  background-color: var(--espresso);
+  color: var(--ink);
+}
+.on-forest {
+  --paper: var(--night-forest);
+  --paper-2: #1e2e23;
+  --card: #1e2e23;
+  --ink: var(--lime);
+  --ink-2: color-mix(in srgb, var(--lime) 80%, transparent);
+  --ink-3: color-mix(in srgb, var(--lime) 58%, transparent);
+  --ink-inverse: var(--night-forest);
+  --line: rgba(232, 244, 208, 0.16);
+  --line-2: rgba(232, 244, 208, 0.3);
+  background-color: var(--night-forest);
+  color: var(--ink);
+}
+.on-cream {
+  background-color: var(--paper);
+  background-image: var(--grain);
+  color: var(--ink);
+}

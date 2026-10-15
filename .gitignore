@@ -1,0 +1,19 @@
+# .NET
+bin/
+obj/
+TestResults/
+*.user
+.vs/
+
+# runtime data: SQLite database, uploads, generated JWT secret
+src/BooksApi/storage/
+*.db
+*.db-shm
+*.db-wal
+
+# content builder: downloaded texts and packages (rebuild with `npm install && npm run all`)
+tools/content-builder/cache/
+tools/content-builder/node_modules/
+
+*.log
+.env

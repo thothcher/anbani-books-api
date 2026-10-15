@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="ka">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ანბანი — ბრენდ-ბუქი</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&family=DM+Sans:opsz,wght@9..40,400..700&family=JetBrains+Mono:wght@400;600&family=Newsreader:opsz,wght@6..72,300..600&family=Noto+Sans+Georgian:wdth,wght@62.5..100,400..700&family=Noto+Serif+Georgian:wght@300..700&display=swap">
+  <link rel="stylesheet" href="portal.css">
+  <style>
+    .caps { font-family: "Barlow Condensed", "Noto Sans Georgian", sans-serif; font-stretch: 62.5%; font-weight: 700; text-transform: uppercase; line-height: .92; margin: 0; }
+    .caps small { font-weight: 600; font-size: .46em; vertical-align: .62em; }
+    .serif { font-family: var(--font-display); font-weight: 300; letter-spacing: -.02em; line-height: 1.08; }
+    .stage { border-radius: var(--radius-l); padding: clamp(1.5rem, 4vw, 3rem); align-content: start; }
+    .espresso { background: #2a1a13; color: #edd2bf; }
+    .forest { background: #16231b; color: #e8f4d0; }
+    .cream { background: #f3e3d5; color: #2a1a13; border: 1px solid var(--line); }
+    .logo-row { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 1rem; }
+    .logo-tile { display: grid; place-items: center; min-height: 200px; border-radius: var(--radius-l); }
+    .logo-tile img { width: 110px; height: 110px; }
+    .type-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1rem; }
+    .type-grid .stage p { margin: 0; }
+    .principles { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 1rem; }
+    .principles div { padding: 1.25rem; border-radius: var(--radius-l); background: var(--card); border: 1px solid var(--line); }
+    .principles b { display: block; font: 700 1.25rem "Barlow Condensed", "Noto Sans Georgian", sans-serif; font-stretch: 62.5%; text-transform: uppercase; margin-bottom: .4rem; }
+    .cta { display: inline-flex; align-items: center; gap: 3px; text-decoration: none; }
+    .cta span:first-child { display: inline-flex; align-items: center; min-height: 52px; padding: 0 1.5rem; border-radius: 999px; background: #edd2bf; color: #2a1a13; font-weight: 500; }
+    .cta span:last-child { display: grid; place-items: center; width: 52px; height: 52px; border-radius: 50%; background: #4b3128; color: #edd2bf; font-size: 1.3rem; }
+    .pill { display: inline-flex; align-items: center; gap: 1.5rem; height: 48px; padding: 0 1.25rem; border-radius: 999px; background: rgba(36,22,15,.72); color: #fcf5ef; font: 700 .8rem var(--font-body); letter-spacing: .06em; }
+    .pill img { width: 70px; height: 70px; margin: -12px 0; }
+    .tiles { display: grid; grid-template-columns: repeat(auto-fill, minmax(104px, 1fr)); gap: 8px; }
+    .tiles div { aspect-ratio: 1.65; border-radius: 8px; display: grid; place-items: end start; padding: .6rem; color: #fff; font: 600 .75rem var(--font-mono); }
+    .covers { display: grid; grid-template-columns: repeat(auto-fill, minmax(110px, 1fr)); gap: 14px; }
+    .covers img { width: 100%; border-radius: 3px 7px 7px 3px; box-shadow: 0 10px 18px -10px rgba(0,0,0,.5); }
+  </style>
+</head>
+<body>
+  <header class="top">
+    <div class="container">
+      <a class="brand" href="/"><img src="mark.svg" alt=""><div><strong>ანბანი</strong><span>brand book</span></div></a>
+      <nav><a class="keep" href="/docs.html">დოკუმენტაცია</a><a href="/docs.html?doc=brief">დავალება</a><a href="/app/">საიტი</a></nav>
+    </div>
+  </header>
+
+  <main class="container" style="padding-top:2.5rem;padding-bottom:4rem">
+    <span class="eyebrow">ბრენდ-ბუქი</span>
+    <h1 class="caps" style="font-size:clamp(2.6rem,1.2rem + 5vw,5.4rem);margin:.4rem 0 1rem">ᲔᲡᲞᲠᲔᲡᲝ ᲓᲐ ᲥᲐᲦᲐᲚᲓᲘ</h1>
+    <p class="muted" style="max-width:70ch;font-size:1.08rem">„ანბანი“ ჟურნალივით იკითხება: მუქი ყავისფერი სცენები, ღია ფერის „ქაღალდის“ გვერდები მსუბუქი ხალით, ერთი წითელი ბეჭედი და დიდი, ვიწრო ასოები განცხადებებისთვის. ყდები ყოველთვის ფერად ფონზე დგას — როგორც პროდუქტი ვიტრინაში.</p>
+
+    <section style="margin-top:3rem">
+      <h2>ლოგო — ბეჭედი</h2>
+      <div class="logo-row">
+        <div class="logo-tile espresso"><img src="seal.svg" alt=""></div>
+        <div class="logo-tile cream"><img src="seal.svg" alt=""></div>
+        <div class="logo-tile forest"><img src="mark.svg" alt="" style="width:84px;height:84px"></div>
+      </div>
+      <p class="small muted" style="margin-top:1rem">ნიშანი — მხედრული „ა“ (Noto Serif Georgian Bold) წითელ წრეში, როგორც ცვილის ბეჭედი. <b>seal.svg</b> — ჰედერისა და ფუტერისთვის (შიდა რგოლით), <b>mark.svg</b> — მცირე ზომებისთვის და favicon-ისთვის. ჩამოტვირთვა: <a href="seal.svg" download>seal.svg</a> · <a href="mark.svg" download>mark.svg</a>. ❌ არ შეცვალოთ ფერი და არ ჩასვათ კვადრატში.</p>
+    </section>
+
+    <section style="margin-top:3rem">
+      <h2>ფერები</h2>
+      <div class="swatches" id="swatches"></div>
+      <p class="small muted" style="margin-top:1rem">წესი: სცენები — ესპრესო ან ღამის ტყე, გვერდები — ქაღალდი. წითელი მხოლოდ ბეჭედსა და მთავარი ღილაკის ისარზეა. ყვითელი — „ახალი“ ბეჯები და შემთხვევითი წიგნის ღილაკი. ჟანრის ფერი — ყდის ფილის ფონი.</p>
+    </section>
+
+    <section style="margin-top:3rem">
+      <h2>ტიპოგრაფია</h2>
+      <div class="type-grid">
+        <div class="stage espresso">
+          <span class="eyebrow" style="color:#f2c230">განცხადებები · Barlow Condensed + Noto Sans Georgian (ვიწრო)</span>
+          <p class="caps" style="font-size:3.4rem;margin-top:.8rem">ᲡᲘᲢᲧᲕᲐ, <small>ᲠᲝᲛᲔᲚᲘᲪ</small> ᲐᲠ ᲑᲔᲠᲓᲔᲑᲐ</p>
+          <p class="small" style="margin-top:1rem;opacity:.75">ქართული ტექსტი იწერება მთავრულით (Mtavruli, U+1C90). CSS-ის <code style="background:rgba(255,255,255,.1)">text-transform</code> ქართულზე არ მუშაობს — გამოიყენეთ JavaScript-ის <code style="background:rgba(255,255,255,.1)">toUpperCase()</code>, ხოლო ეკრანის წამკითხველისთვის დატოვეთ მხედრული ვერსია.</p>
+        </div>
+        <div class="stage cream">
+          <span class="eyebrow">სათაურები · Newsreader Light + Noto Serif Georgian</span>
+          <p class="serif" style="font-size:3rem;margin-top:.8rem">ყველა წიგნი. ერთი გამოწერა.</p>
+          <p style="margin-top:1rem;font-family:var(--font-body)">ტექსტი და ინტერფეისი — DM Sans + Noto Sans Georgian. ყოველ შრიფტს ქართული წყვილი აქვს.</p>
+        </div>
+      </div>
+    </section>
+
+    <section style="margin-top:3rem">
+      <h2>ხელმოწერის ელემენტები</h2>
+      <div class="type-grid">
+        <div class="stage espresso" style="display:grid;gap:1.5rem;justify-items:start">
+          <div class="pill">ᲙᲐᲢᲐᲚᲝᲒᲘ <img src="seal.svg" alt=""> ᲨᲔᲡᲕᲚᲐ</div>
+          <a class="cta" href="/app/"><span>დაიწყე უფასოდ</span><span>→</span></a>
+          <p class="small" style="margin:0;opacity:.75">მცურავი ჰედერი შუაში ბეჭდით · ღილაკი-წყვილი: წარწერა + მრგვალი ისარი.</p>
+        </div>
+        <div class="stage cream">
+          <div class="tiles" id="tiles"></div>
+          <p class="small muted" style="margin:1rem 0 0">ჟანრის ფერები — ყდები ფილებზე, ისე როგორც პროდუქტის შეფუთვები.</p>
+        </div>
+      </div>
+    </section>
+
+    <section style="margin-top:3rem">
+      <h2>პრინციპები</h2>
+      <div class="principles">
+        <div><b>სცენა და გვერდი</b>მონაცვლეობა: მუქი სცენა → ქაღალდის გვერდი → ტყის ზოლი. ყოველი სექცია — ერთი იდეა.</div>
+        <div><b>დიდი სიტყვები</b>ერთ ეკრანზე ერთი დიდი განცხადება. დანარჩენი — მსუბუქი სერიფი და ბევრი ჰაერი.</div>
+        <div><b>მოძრაობა</b>ნელი: ყდების კედელი მიცურავს, სექციები ქვემოდან ამოდის. „Reduce motion“ — ყველაფერი ჩერდება.</div>
+        <div><b>ხელმისაწვდომობა</b>კონტრასტი ≥ 4.5:1, ფოკუსის რგოლი, Esc ხურავს ფანჯრებს, მთავრული — მხოლოდ თვალისთვის.</div>
+      </div>
+    </section>
+
+    <section style="margin-top:3rem">
+      <h2>წიგნების ყდები</h2>
+      <p class="muted" style="max-width:70ch">ყოველი ჩაშენებული წიგნის ყდა ავტომატურად არის შექმნილი ერთიან სერიად: ფერთა პალიტრა + ჟანრის მოტივი + სათაური. სურათები მოდის API-დან (<code>coverUrl</code>) — SVG-ებია და ნებისმიერ ზომაზე მკვეთრად ჩანს. წიგნის გვერდზე ფონი ყდის ფერს იღებს.</p>
+      <div class="covers" id="covers"></div>
+    </section>
+  </main>
+  <footer><div class="container">ანბანი · ბრენდ-ბუქი · STEP IT Academy</div></footer>
+
+  <script>
+    const COLORS = [
+      ['ესპრესო · Espresso', '#2a1a13'], ['ესპრესო 3', '#4b3128'], ['ლატე · Latte', '#edd2bf'], ['ქაღალდი · Paper', '#f3e3d5'],
+      ['ქაფი · Foam', '#fcf5ef'], ['კინოვარი · Cinnabar', '#c42d1c'], ['მზე · Sun', '#f2c230'], ['ღამის ტყე · Night forest', '#16231b'],
+      ['ლაიმი · Lime', '#e8f4d0'], ['ლაჟვარდი · Lapis', '#22406b'], ['ტყე · Forest', '#2c6648'], ['ოქრო · Gold', '#a87924'],
+    ];
+    document.getElementById('swatches').innerHTML = COLORS.map(([n, c]) => `<div class="swatch"><div style="background:${c}"></div><p><strong>${n}</strong>${c}</p></div>`).join('');
+    const GENRES = [['georgian', '#0f4d3a'], ['poetry', '#5a1d6e'], ['classics', '#a3155c'], ['scifi', '#0b62a8'], ['mystery', '#0f2f8f'], ['gothic', '#7d1810'], ['adventure', '#c4561b'], ['philosophy', '#4a3020'], ['kids', '#2f7d1f']];
+    document.getElementById('tiles').innerHTML = GENRES.map(([g, c]) => `<div style="background:${c}">${g}<br>${c}</div>`).join('');
+    const SLUGS = ['otaraant-kvrivi', 'katsia-adamiani', 'glakhis-naambobi', 'mamis-mkvleli', 'samanishvilis-dedinatsvali', 'jakos-khiznebi', 'bashi-achuki', 'gandegili', 'aluda-ketelauri', 'stumar-maspindzeli', 'gvelis-mchameli', 'pride-and-prejudice', 'dorian-gray', 'metamorphosis', 'time-machine', 'war-of-the-worlds', 'adventures-of-sherlock-holmes', 'hound-of-the-baskervilles', 'frankenstein', 'dracula', 'jekyll-and-hyde', 'treasure-island', 'call-of-the-wild', 'around-the-world-in-eighty-days', 'meditations', 'art-of-war', 'the-prince', 'alice-in-wonderland', 'wizard-of-oz', 'jungle-book'];
+    document.getElementById('covers').innerHTML = SLUGS.map((s) => `<img src="/files/covers/s-${s}" alt="${s}" loading="lazy">`).join('');
+  </script>
+</body>
+</html>

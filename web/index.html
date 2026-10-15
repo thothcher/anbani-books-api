@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="ka" data-theme="light">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ანბანი — ციფრული ბიბლიოთეკა</title>
+  <meta name="description" content="Anbani — every book, one subscription. Reference project for STEP IT Academy students.">
+  <meta name="theme-color" content="#2a1a13">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <!-- Newsreader (light serif) · Barlow Condensed (statements) · DM Sans (UI) — each backed by a Noto Georgian family -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700&family=DM+Sans:ital,opsz,wght@0,9..40,300..700;1,9..40,400&family=JetBrains+Mono:wght@400;600&family=Newsreader:ital,opsz,wght@0,6..72,200..600;1,6..72,300..500&family=Noto+Sans+Georgian:wdth,wght@62.5..100,300..800&family=Noto+Serif+Georgian:wght@200..700&display=swap">
+  <link rel="stylesheet" href="css/tokens.css">
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/layout.css">
+  <link rel="stylesheet" href="css/pages.css">
+  <link rel="stylesheet" href="css/reader.css">
+  <link rel="stylesheet" href="css/admin.css">
+  <link rel="stylesheet" href="css/devpanel.css">
+  <script>
+    // apply the saved theme before the first paint (no flash)
+    try {
+      const t = localStorage.getItem('anbani.theme');
+      if (t) document.documentElement.dataset.theme = t;
+      else if (matchMedia('(prefers-color-scheme: dark)').matches) document.documentElement.dataset.theme = 'dark';
+    } catch {}
+  </script>
+  <script src="config.js"></script>
+  <script type="module" src="js/main.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div id="banner"></div>
+  <header id="site-header"></header>
+  <main id="main" tabindex="-1">
+    <div class="boot">
+      <img class="boot__mark" src="assets/seal.svg" alt="" width="84" height="84">
+    </div>
+  </main>
+  <footer id="site-footer"></footer>
+  <div id="overlays"></div>
+  <div id="toasts" aria-live="polite"></div>
+  <div id="modal-root"></div>
+  <div id="devpanel-root"></div>
+  <noscript>This website needs JavaScript.</noscript>
+</body>
+</html>

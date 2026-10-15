@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="ka">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>BooksAPI — დოკუმენტაცია</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&family=DM+Sans:opsz,wght@9..40,400..700&family=JetBrains+Mono:wght@400;600&family=Newsreader:opsz,wght@6..72,300..600&family=Noto+Sans+Georgian:wdth,wght@62.5..100,400..700&family=Noto+Serif+Georgian:wght@300..700&display=swap">
+  <link rel="stylesheet" href="portal.css">
+  <link rel="stylesheet" href="vendor/highlight-dark.min.css">
+</head>
+<body>
+  <header class="top">
+    <div class="container">
+      <a class="brand" href="/"><img src="mark.svg" alt=""><div><strong>ანბანი</strong><span>BooksAPI · docs</span></div></a>
+      <nav>
+        <a class="keep" id="nav-api" href="/docs.html">დოკუმენტაცია</a>
+        <a class="keep" id="nav-brief" href="/docs.html?doc=brief">დავალება</a>
+        <a href="/swagger">Swagger</a>
+        <a href="/content/postman/BooksAPI.postman_collection.json" download>Postman</a>
+        <a href="/app/">საიტი</a>
+      </nav>
+    </div>
+  </header>
+
+  <div class="container docs">
+    <aside id="toc" aria-label="სარჩევი"></aside>
+    <article class="doc" id="doc"><p class="muted">იტვირთება…</p></article>
+  </div>
+
+  <script src="vendor/marked.umd.js"></script>
+  <script src="vendor/highlight.min.js"></script>
+  <script src="vendor/highlight.http.min.js"></script>
+  <script>
+    const DOCS = { api: '/content/api.ka.md', brief: '/content/brief.ka.md' };
+    const params = new URLSearchParams(location.search);
+    const which = DOCS[params.get('doc')] ? params.get('doc') : 'api';
+    document.getElementById(which === 'brief' ? 'nav-brief' : 'nav-api').classList.add('is-active');
+
+    // GitHub's heading-id algorithm, so links written in the Markdown work here too
+    const slug = (text) => text.toLowerCase().replace(/[^\p{L}\p{N}\s_-]/gu, '').replace(/\s/g, '-');
+
+    (async () => {
+      const res = await fetch(DOCS[which]);
+      if (!res.ok) { document.getElementById('doc').textContent = 'დოკუმენტი ვერ მოიძებნა.'; return; }
+      // the docs show the production URL; here we show the address of this server
+      const md = (await res.text()).replaceAll('https://booksapi.stepacademy.ge', location.origin);
+      const doc = document.getElementById('doc');
+      doc.innerHTML = marked.parse(md, { gfm: true });
+      document.title = (doc.querySelector('h1')?.textContent ?? 'Docs') + ' · BooksAPI';
+
+      const used = new Map();
+      doc.querySelectorAll('h1, h2, h3, h4').forEach((h) => {
+        let id = slug(h.textContent);
+        const n = used.get(id) ?? 0;
+        used.set(id, n + 1);
+        if (n) id += '-' + n;
+        h.id = id;
+      });
+
+      // every error code in a table row gets an anchor: /docs#SUBSCRIPTION_REQUIRED
+      doc.querySelectorAll('table tr').forEach((tr) => {
+        const cell = tr.querySelector('td');
+        if (!cell) return;
+        cell.querySelectorAll('code').forEach((c) => {
+          const m = c.textContent.match(/^(?:\d{3} )?([A-Z][A-Z_]{3,})$/);
+          if (m && !document.getElementById(m[1])) { const a = document.createElement('span'); a.id = m[1]; a.style.scrollMarginTop = '90px'; cell.prepend(a); }
+        });
+      });
+
+      // links to other docs in the repo
+      doc.querySelectorAll('a[href$=".md"]').forEach((a) => { if (a.getAttribute('href').includes('brief')) a.href = '/docs.html?doc=brief'; });
+
+      doc.querySelectorAll('pre code').forEach((el) => {
+        const lang = (el.className.match(/language-(\w+)/) ?? [])[1];
+        if (lang === 'http') el.className = 'language-http';
+        hljs.highlightElement(el);
+        const pre = el.parentElement;
+        pre.classList.add('copyable');
+        const b = document.createElement('button');
+        b.className = 'copy-btn'; b.textContent = 'copy';
+        b.onclick = () => navigator.clipboard.writeText(el.innerText).then(() => { b.textContent = '✓'; setTimeout(() => (b.textContent = 'copy'), 1200); });
+        pre.appendChild(b);
+      });
+
+      // sidebar table of contents
+      const toc = document.getElementById('toc');
+      const heads = [...doc.querySelectorAll('h2, h3')];
+      toc.innerHTML = heads.map((h) => `<a class="lvl-${h.tagName[1]}" href="#${encodeURIComponent(h.id)}">${h.textContent.replace(/[<>&]/g, '')}</a>`).join('');
+      const links = new Map([...toc.querySelectorAll('a')].map((a, i) => [heads[i], a]));
+      const observer = new IntersectionObserver((entries) => {
+        entries.forEach((e) => {
+          if (!e.isIntersecting) return;
+          toc.querySelectorAll('a').forEach((a) => a.classList.remove('is-active'));
+          const a = links.get(e.target);
+          a?.classList.add('is-active');
+          a?.scrollIntoView({ block: 'nearest' });
+        });
+      }, { rootMargin: '-80px 0px -70% 0px' });
+      heads.forEach((h) => observer.observe(h));
+
+      if (location.hash) {
+        const target = document.getElementById(decodeURIComponent(location.hash.slice(1)));
+        if (target) {
+          target.scrollIntoView();
+          target.closest('tr')?.classList.add('is-target');
+        }
+      }
+    })();
+  </script>
+</body>
+</html>

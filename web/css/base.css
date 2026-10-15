@@ -1,0 +1,192 @@
+*,
+*::before,
+*::after { box-sizing: border-box; }
+
+html { -webkit-text-size-adjust: 100%; scroll-behavior: smooth; }
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *, *::before, *::after { animation-duration: 0.01ms !important; animation-iteration-count: 1 !important; transition-duration: 0.01ms !important; }
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  font-family: var(--font-body);
+  font-size: var(--text-md);
+  line-height: 1.6;
+  color: var(--ink);
+  background-color: var(--paper);
+  background-image: var(--grain);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  overflow-x: hidden;
+}
+body.is-locked { overflow: hidden; }
+
+main { flex: 1; outline: none; }
+
+/* titles: a light, book-like serif */
+h1, h2, h3, h4 {
+  font-family: var(--font-display);
+  font-weight: 300;
+  line-height: 1.08;
+  letter-spacing: -0.022em;
+  margin: 0 0 0.5em;
+  font-optical-sizing: auto;
+}
+h1 { font-size: var(--text-3xl); }
+h2 { font-size: var(--text-2xl); }
+h3 { font-size: var(--text-xl); font-weight: 400; }
+h4 { font-size: var(--text-lg); font-weight: 500; }
+:lang(ka) h1, :lang(ka) h2, :lang(ka) h3, :lang(ka) h4 { letter-spacing: -0.01em; line-height: 1.2; }
+
+p { margin: 0 0 1em; }
+a { color: inherit; text-decoration-color: color-mix(in srgb, currentColor 35%, transparent); text-underline-offset: 3px; }
+a:hover { color: var(--cinnabar); }
+img, svg, canvas { display: block; max-width: 100%; }
+button, input, select, textarea { font: inherit; color: inherit; }
+button { cursor: pointer; }
+:focus-visible { outline: none; box-shadow: var(--ring); border-radius: var(--radius-xs); }
+::selection { background: var(--cinnabar); color: #fff; }
+hr { border: 0; border-top: 1px solid var(--line); margin: 1.5rem 0; }
+code, kbd, pre { font-family: var(--font-mono); font-size: 0.9em; }
+kbd {
+  padding: 0.1em 0.45em;
+  border: 1px solid var(--line-2);
+  border-bottom-width: 2px;
+  border-radius: 6px;
+  background: var(--card);
+  font-size: 0.8em;
+}
+
+.skip-link {
+  position: absolute;
+  left: -9999px;
+  top: 8px;
+  z-index: 100;
+  padding: 8px 14px;
+  background: var(--espresso);
+  color: var(--latte);
+  border-radius: var(--pill);
+}
+.skip-link:focus { left: 8px; }
+
+.container {
+  width: 100%;
+  max-width: var(--container);
+  margin: 0 auto;
+  padding: 0 var(--gutter);
+}
+.container--narrow { max-width: 820px; }
+.container--wide { max-width: 1440px; }
+
+.visually-hidden {
+  position: absolute !important;
+  width: 1px; height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+}
+
+.muted { color: var(--ink-3); }
+.small { font-size: var(--text-sm); }
+.xsmall { font-size: var(--text-xs); }
+.mono { font-family: var(--font-mono); }
+.nowrap { white-space: nowrap; }
+.center { text-align: center; }
+.stack > * + * { margin-top: var(--stack, 1rem); }
+.row { display: flex; align-items: center; gap: 0.75rem; flex-wrap: wrap; }
+.row--between { justify-content: space-between; }
+.row--end { justify-content: flex-end; }
+.grow { flex: 1; }
+.mt-0 { margin-top: 0; }
+.mb-0 { margin-bottom: 0; }
+
+/* ── the type system ─────────────────────────────────────────────────────────
+   .caps     condensed capitals for statements ("CLASSICS that NEVER AGE").
+             Georgian text is turned into Mtavruli (Georgian capitals) by caps() in JS,
+             because browsers deliberately don't apply text-transform to Georgian.
+   .serif    the light display serif
+   .kicker   the medium condensed line above a title
+   .eyebrow  a small spaced label                                                  */
+.caps {
+  font-family: var(--font-cond);
+  font-stretch: 62.5%;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 0.9;
+  letter-spacing: -0.008em;
+  margin: 0;
+}
+.caps small, .caps .thin {
+  font-weight: 500;
+  font-size: 0.46em;
+  letter-spacing: 0;
+  vertical-align: 0.62em;
+  margin: 0 0.06em;
+}
+.caps--xl { font-size: var(--text-caps); }
+.caps--l { font-size: clamp(2.6rem, 1.2rem + 5vw, 5.6rem); }
+/* Georgian capitals are wider than Latin ones — one step smaller keeps the same line count */
+:lang(ka) .caps--xl { font-size: clamp(2.5rem, 0.9rem + 5.4vw, 6.2rem); }
+:lang(ka) .caps--l { font-size: clamp(2.1rem, 0.9rem + 3.8vw, 4.4rem); }
+.caps--m { font-size: clamp(1.9rem, 1.2rem + 2.4vw, 3rem); }
+.caps--s { font-size: clamp(1.25rem, 1rem + 0.8vw, 1.6rem); line-height: 1; }
+.serif { font-family: var(--font-display); font-weight: 300; letter-spacing: -0.022em; line-height: 1.04; }
+:lang(ka) .serif { letter-spacing: -0.008em; line-height: 1.16; }
+.serif--hero { font-size: var(--text-hero); }
+.serif--xl { font-size: var(--text-4xl); }
+.serif--l { font-size: var(--text-3xl); }
+.kicker {
+  display: block;
+  font-family: var(--font-cond);
+  font-stretch: 62.5%;
+  font-weight: 600;
+  font-size: clamp(1.3rem, 1rem + 1vw, 2rem);
+  line-height: 1;
+  text-transform: uppercase;
+  letter-spacing: 0.01em;
+  margin: 0 0 0.35em;
+}
+.eyebrow {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-family: var(--font-body);
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--ink);
+}
+:lang(ka) .eyebrow { letter-spacing: 0.05em; }
+.eyebrow svg { width: 9px; height: 9px; flex: none; }
+.lead { font-size: var(--text-lg); line-height: 1.55; color: var(--ink-2); max-width: 56ch; }
+.serif-lead { font: 300 clamp(1.2rem, 1rem + 0.7vw, 1.55rem)/1.4 var(--font-display); letter-spacing: -0.01em; color: var(--ink-2); }
+
+/* the boot screen before the app has rendered */
+.boot { min-height: 100vh; display: grid; place-items: center; background: var(--espresso); }
+.boot__mark { width: 84px; height: 84px; animation: pulse 1.2s var(--ease) infinite alternate; }
+@keyframes pulse { from { transform: scale(0.94) rotate(-6deg); opacity: 0.7; } to { transform: scale(1) rotate(0); opacity: 1; } }
+
+@keyframes fade-up { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: none; } }
+/* opacity only: a transform here would trap position:fixed children (the reader) inside the page */
+@keyframes page-in { from { opacity: 0; } }
+.page-enter { animation: page-in 320ms ease backwards; }
+/* default size for inline icons; components override it (e.g. .btn svg) */
+.icon { display: inline-block; width: 1.15em; height: 1.15em; flex: none; vertical-align: -0.2em; }
+
+/* scroll reveal — only once motion.js has started (no JavaScript → everything stays visible) */
+html.has-motion [data-reveal] {
+  opacity: 0;
+  transform: translateY(28px);
+  transition: opacity 900ms var(--ease-out), transform 900ms var(--ease-out);
+  transition-delay: calc(var(--d, 0) * 90ms);
+}
+html.has-motion [data-reveal="fade"] { transform: none; }
+html.has-motion [data-reveal].is-in { opacity: 1; transform: none; }
+@media (prefers-reduced-motion: reduce) {
+  html.has-motion [data-reveal] { opacity: 1; transform: none; }
+}

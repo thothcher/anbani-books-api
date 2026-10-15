@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="ka">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>BooksAPI — ლექტორის დაფა</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&family=DM+Sans:opsz,wght@9..40,400..700&family=JetBrains+Mono:wght@400;600&family=Newsreader:opsz,wght@6..72,300..600&family=Noto+Sans+Georgian:wdth,wght@62.5..100,400..700&family=Noto+Serif+Georgian:wght@300..700&display=swap">
+  <link rel="stylesheet" href="portal.css">
+</head>
+<body>
+  <header class="top">
+    <div class="container">
+      <a class="brand" href="/"><img src="mark.svg" alt=""><div><strong>ანბანი</strong><span>BooksAPI · teacher</span></div></a>
+      <nav><a class="keep" href="/docs.html">დოკუმენტაცია</a><a href="/docs.html?doc=brief">დავალება</a><a href="/swagger">Swagger</a></nav>
+    </div>
+  </header>
+
+  <main class="container" style="padding-top:2rem">
+    <h1>ლექტორის დაფა</h1>
+    <p class="muted" style="max-width:70ch">აქ ჩანს ყველა API გასაღები (სტუდენტი) და რომელი ენდპოინტები გამოიძახა მისმა აპლიკაციამ — ანუ რა ფუნქციონალი უკვე ააწყო. სტატისტიკა ახლდება ~15 წამში.</p>
+
+    <form id="login" class="card" style="max-width:460px" novalidate>
+      <div class="field"><label for="secret">ლექტორის საიდუმლო (Teacher:Secret)</label><input class="input" id="secret" type="password" autocomplete="current-password"></div>
+      <button class="btn btn--primary" style="margin-top:1rem">შესვლა</button>
+      <div class="error" id="login-error"></div>
+    </form>
+
+    <div id="app" hidden>
+      <div class="kpis" id="kpis"></div>
+
+      <details class="card" style="margin-bottom:1.5rem">
+        <summary style="cursor:pointer;font-weight:600">➕ გასაღების გაცემა სტუდენტისთვის</summary>
+        <form id="create" style="display:grid;grid-template-columns:1fr 1fr 1fr auto;gap:.75rem;margin-top:1rem;align-items:end">
+          <div><label for="c-name">სახელი</label><input class="input" id="c-name" name="name" required></div>
+          <div><label for="c-email">ელ-ფოსტა</label><input class="input" id="c-email" name="email" type="email"></div>
+          <div><label for="c-group">ჯგუფი</label><input class="input" id="c-group" name="group"></div>
+          <button class="btn btn--primary">შექმნა</button>
+        </form>
+        <p id="created" class="small"></p>
+      </details>
+
+      <div class="row" style="display:flex;gap:.75rem;align-items:center;margin-bottom:.75rem;flex-wrap:wrap">
+        <input class="input" id="filter" placeholder="ძებნა: სახელი, ჯგუფი, ელ-ფოსტა…" style="max-width:340px">
+        <span class="small muted" id="legend"></span>
+      </div>
+      <div class="tbl-wrap"><table class="tbl" id="table"></table></div>
+    </div>
+  </main>
+
+  <script>
+    // Milestones = endpoints that prove a feature is integrated (route templates as ASP.NET records them).
+    const MILESTONES = [
+      ['კატალოგი', 'GET /api/books'], ['წიგნის გვერდი', 'GET /api/books/{id:int}'], ['კატეგორიები', 'GET /api/categories'],
+      ['რეგისტრაცია', 'POST /api/auth/register'], ['დადასტურება', 'POST /api/auth/verify-email'], ['შესვლა', 'POST /api/auth/login'], ['refresh', 'POST /api/auth/refresh'],
+      ['me', 'GET /api/users/me'], ['პროფილი', 'PUT /api/users/profile'],
+      ['გეგმები', 'GET /api/plans'], ['საცდელი', 'POST /api/subscription/trial'], ['გადახდა', 'POST /api/subscription/checkout'], ['გაუქმება', 'POST /api/subscription/cancel'],
+      ['კითხვა', 'GET /api/books/{id:int}/read'], ['პროგრესი', 'PUT /api/library/progress/{bookId:int}'],
+      ['რჩეულები', 'POST /api/library/favorites/{bookId:int}'], ['შეფასება', 'POST /api/books/{bookId:int}/reviews'],
+      ['ადმინ-დაფა', 'GET /api/admin/stats'], ['წიგნის შექმნა', 'POST /api/books'],
+    ];
+    let secret = sessionStorage.getItem('teacher.secret') ?? '';
+    let keys = [];
+    const open = new Set();
+    const esc = (s) => String(s ?? '').replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+    const ago = (d) => {
+      if (!d) return '—';
+      const s = (Date.now() - new Date(d)) / 1000;
+      if (s < 60) return 'ახლახან';
+      if (s < 3600) return Math.round(s / 60) + ' წთ წინ';
+      if (s < 86400) return Math.round(s / 3600) + ' სთ წინ';
+      return Math.round(s / 86400) + ' დღის წინ';
+    };
+
+    async function call(method, path, body) {
+      const res = await fetch(path, { method, headers: { 'X-Teacher-Secret': secret, 'Accept-Language': 'ka', ...(body ? { 'Content-Type': 'application/json' } : {}) }, body: body ? JSON.stringify(body) : undefined });
+      const data = res.status === 204 ? null : await res.json();
+      if (!res.ok) throw data;
+      return data;
+    }
+
+    async function load() {
+      try {
+        keys = await call('GET', '/api/teacher/keys');
+        sessionStorage.setItem('teacher.secret', secret);
+        document.getElementById('login').hidden = true;
+        document.getElementById('app').hidden = false;
+        draw();
+      } catch (err) {
+        document.getElementById('login').hidden = false;
+        document.getElementById('app').hidden = true;
+        document.getElementById('login-error').textContent = err?.detail ?? 'შეცდომა';
+      }
+    }
+
+    function draw() {
+      const day = Date.now() - 86400000;
+      const students = keys.filter((k) => !k.isDemo);
+      document.getElementById('kpis').innerHTML = [
+        [students.length, 'API გასაღები'],
+        [students.filter((k) => k.lastUsedAt && new Date(k.lastUsedAt) > day).length, 'აქტიური ბოლო 24 სთ'],
+        [students.reduce((n, k) => n + k.requestCount, 0).toLocaleString('en-US'), 'მოთხოვნა სულ'],
+        [students.reduce((n, k) => n + k.users, 0), 'მომხმარებელი sandbox-ებში'],
+      ].map(([v, l]) => `<div class="kpi"><strong>${v}</strong><span>${l}</span></div>`).join('');
+      document.getElementById('legend').textContent = `ეტაპები (${MILESTONES.length}): ` + MILESTONES.map((m) => m[0]).join(' · ');
+
+      const q = document.getElementById('filter').value.trim().toLowerCase();
+      const rows = keys.filter((k) => !q || `${k.name} ${k.email} ${k.group}`.toLowerCase().includes(q));
+      document.getElementById('table').innerHTML = `
+        <thead><tr><th>სტუდენტი</th><th>ჯგუფი</th><th>ბოლოს</th><th>მოთხოვნები</th><th>ეტაპები</th><th>sandbox</th><th></th></tr></thead>
+        <tbody>${rows.map((k) => {
+          const hit = new Set(k.endpoints.map((e) => e.endpoint));
+          const done = MILESTONES.filter((m) => hit.has(m[1])).length;
+          return `<tr>
+            <td><strong>${esc(k.name)}</strong> ${k.isDemo ? '<span class="badge">demo</span>' : ''} ${k.isActive ? '' : '<span class="badge badge--off">გათიშული</span>'}<br><span class="small muted">${esc(k.email)} · <code>${esc(k.keyPreview)}</code></span></td>
+            <td>${esc(k.group ?? '—')}</td>
+            <td class="small">${ago(k.lastUsedAt)}</td>
+            <td class="small">${k.requestCount.toLocaleString('en-US')}<br><span class="muted">${k.errorCount} შეცდომა</span></td>
+            <td><div class="milestones" title="${done}/${MILESTONES.length}">${MILESTONES.map((m) => `<i class="${hit.has(m[1]) ? 'on' : ''}" title="${esc(m[0])}"></i>`).join('')}</div><span class="small muted">${done}/${MILESTONES.length}</span></td>
+            <td class="small">👤 ${k.users} · 💳 ${k.subscriptions}<br>📚 ${k.customBooks} · ⭐ ${k.reviews}</td>
+            <td style="white-space:nowrap">
+              <button class="btn btn--sm" data-toggle="${k.id}">${open.has(k.id) ? 'დამალვა' : 'დეტალები'}</button>
+              <button class="btn btn--sm" data-active="${k.id}" data-to="${!k.isActive}">${k.isActive ? 'გათიშვა' : 'ჩართვა'}</button>
+              <button class="btn btn--sm" data-wipe="${k.id}" data-name="${esc(k.name)}">გასუფთავება</button>
+            </td></tr>
+            ${open.has(k.id) ? `<tr class="detail"><td colspan="7"><div class="endpoints">${k.endpoints.map((e) => `<span>${esc(e.endpoint)}<b>${e.count}${e.errorCount ? ' · ' + e.errorCount + '✗' : ''}</b></span>`).join('') || '<span class="muted">ჯერ მოთხოვნები არ არის</span>'}</div></td></tr>` : ''}`;
+        }).join('')}</tbody>`;
+    }
+
+    document.getElementById('login').addEventListener('submit', (e) => { e.preventDefault(); secret = document.getElementById('secret').value; load(); });
+    document.getElementById('filter').addEventListener('input', draw);
+    document.getElementById('table').addEventListener('click', async (e) => {
+      const b = e.target.closest('button');
+      if (!b) return;
+      try {
+        if (b.dataset.toggle) { const id = Number(b.dataset.toggle); open.has(id) ? open.delete(id) : open.add(id); return draw(); }
+        if (b.dataset.active) { await call('PATCH', `/api/teacher/keys/${b.dataset.active}`, { isActive: b.dataset.to === 'true' }); }
+        if (b.dataset.wipe) {
+          if (!confirm(`წავშალოთ „${b.dataset.name}“-ის sandbox-ის ყველა მონაცემი (მომხმარებლები, წიგნები, გადახდები)? გასაღები დარჩება.`)) return;
+          await call('DELETE', `/api/teacher/keys/${b.dataset.wipe}/data`);
+        }
+        await load();
+      } catch (err) { alert(err?.detail ?? 'შეცდომა'); }
+    });
+    document.getElementById('create').addEventListener('submit', async (e) => {
+      e.preventDefault();
+      try {
+        const k = await call('POST', '/api/teacher/keys', Object.fromEntries(new FormData(e.target)));
+        document.getElementById('created').innerHTML = `✅ ${esc(k.name)}: <code>${esc(k.apiKey)}</code> — გადაეცით სტუდენტს.`;
+        e.target.reset();
+        load();
+      } catch (err) { document.getElementById('created').textContent = err?.detail ?? 'შეცდომა'; }
+    });
+    if (secret) load();
+    setInterval(() => { if (!document.getElementById('app').hidden) load(); }, 30000);
+  </script>
+</body>
+</html>

@@ -1,0 +1,26 @@
+# docker compose up -d --build   →   http://localhost:8080
+# Put a reverse proxy with HTTPS in front of it on a real server (e.g. booksapi.stepacademy.ge); X-Forwarded-* headers are honoured.
+
+services:
+  booksapi:
+    build: .
+    image: anbani-booksapi
+    restart: unless-stopped
+    ports:
+      - "8080:8080"
+    environment:
+      # Opens /teacher (progress of every student key). Empty = teacher endpoints are off.
+      Teacher__Secret: ${TEACHER_SECRET:-}
+      # Base URL used in cover/preview/file links, e.g. https://booksapi.stepacademy.ge (empty = taken from the request)
+      Hosting__PublicBaseUrl: ${PUBLIC_BASE_URL:-}
+      # Optional, at least 32 characters. Empty = generated once and kept in /data/.jwt-secret
+      Jwt__Secret: ${JWT_SECRET:-}
+      # Optional real e-mail delivery; without it e-mails only appear in the sandbox inbox
+      Smtp__Host: ${SMTP_HOST:-}
+      Smtp__User: ${SMTP_USER:-}
+      Smtp__Password: ${SMTP_PASSWORD:-}
+    volumes:
+      - booksapi-data:/data
+
+volumes:
+  booksapi-data:

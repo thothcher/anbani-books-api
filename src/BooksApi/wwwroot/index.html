@@ -1,0 +1,180 @@
+<!doctype html>
+<html lang="ka">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>BooksAPI — დეველოპერის პორტალი</title>
+  <meta name="description" content="BooksAPI (Anbani) — სასწავლო API ციფრული ბიბლიოთეკისთვის. STEP IT Academy.">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&family=DM+Sans:opsz,wght@9..40,400..700&family=JetBrains+Mono:wght@400;600&family=Newsreader:opsz,wght@6..72,300..600&family=Noto+Sans+Georgian:wdth,wght@62.5..100,400..700&family=Noto+Serif+Georgian:wght@300..700&display=swap">
+  <link rel="stylesheet" href="portal.css">
+</head>
+<body>
+  <header class="top">
+    <div class="container">
+      <a class="brand" href="/"><img src="mark.svg" alt=""><div><strong>ანბანი</strong><span>BooksAPI · developers</span></div></a>
+      <nav>
+        <a class="keep" href="/docs.html">დოკუმენტაცია</a>
+        <a href="/docs.html?doc=brief">დავალება</a>
+        <a href="/swagger">Swagger</a>
+        <a href="/app/">სადემონსტრაციო საიტი</a>
+        <a href="/brand.html">ბრენდი</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <div>
+        <span class="eyebrow">BooksAPI v1 · <span class="status" id="status">…</span></span>
+        <h1>API ციფრული ბიბლიოთეკისთვის — <em>ააწყე შენი „ანბანი“</em></h1>
+        <p class="lead">რეგისტრაცია, 30 წიგნის PDF კატალოგი, გამოწერა 7-დღიანი უფასო საცდელით, სატესტო გადახდები, ბრაუზერში კითხვა და ადმინ-პანელი. თქვენ წერთ ფრონტენდს — ბექენდი მზადაა.</p>
+        <div class="actions">
+          <a class="btn btn--primary" href="#key">მიიღე API გასაღები</a>
+          <a class="btn" href="/docs.html">დოკუმენტაცია</a>
+          <a class="btn" href="/docs.html?doc=brief">პროექტის დავალება</a>
+          <a class="btn btn--dark" href="/app/">სადემონსტრაციო საიტი ↗</a>
+        </div>
+      </div>
+      <div class="card" id="key">
+        <h2 style="font-size:1.35rem">🔑 API გასაღები</h2>
+        <p class="small muted" style="margin-top:-.3rem">გასაღები თქვენი პროექტის „sandbox“-ია: თქვენი მომხმარებლები, გამოწერები და წიგნები მხოლოდ მასზე ჩანს. ერთი სტუდენტი — ერთი გასაღები.</p>
+        <form id="key-form" novalidate>
+          <div class="field"><label for="name">სახელი და გვარი</label><input class="input" id="name" name="name" required placeholder="ნინო ბერიძე"><div class="error" data-for="name"></div></div>
+          <div class="field"><label for="email">ელ-ფოსტა</label><input class="input" id="email" name="email" type="email" placeholder="nino@example.com"><div class="error" data-for="email"></div></div>
+          <div class="field"><label for="group">ჯგუფი <span class="muted">(არასავალდებულო)</span></label><input class="input" id="group" name="group" placeholder="FE-2026"><div class="error" data-for="group"></div></div>
+          <button class="btn btn--primary" style="margin-top:1rem;width:100%;justify-content:center" type="submit">გასაღების შექმნა</button>
+          <div class="error" id="form-error"></div>
+        </form>
+        <div id="key-result" hidden>
+          <div class="key-box">
+            <div class="small" style="font-weight:600;margin-bottom:.35rem">✅ თქვენი გასაღები — შეინახეთ, მეორედ ვეღარ ნახავთ:</div>
+            <code id="key-value"></code>
+            <div style="margin-top:.6rem"><button class="btn btn--sm" id="copy-key">კოპირება</button></div>
+          </div>
+          <p class="small muted">შეინახეთ <code>.env</code> ფაილში: <code>VITE_API_KEY=<span id="key-env"></span></code></p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>სწრაფი დაწყება</h2>
+      <div class="steps">
+        <div><strong>შეამოწმეთ გასაღები</strong> — ყველა <code>/api</code> მოთხოვნას სჭირდება ჰედერი <code>X-API-KEY</code>.
+          <pre class="copyable"><code class="language-bash" id="snippet-curl">curl <span data-base></span>/api/books?pageSize=3 \
+  -H "X-API-KEY: <span data-key>YOUR_API_KEY</span>"</code></pre></div>
+        <div><strong>JavaScript-დან</strong> — ერთი ფუნქცია, რომელიც ყველა მოთხოვნას ამატებს გასაღებს და ტოკენს:
+          <pre class="copyable"><code class="language-javascript">const API = '<span data-base></span>';
+const API_KEY = import.meta.env.VITE_API_KEY; // '<span data-key>YOUR_API_KEY</span>'
+
+export async function api(path, { method = 'GET', body, token } = {}) {
+  const res = await fetch(API + path, {
+    method,
+    headers: {
+      'X-API-KEY': API_KEY,
+      'Accept-Language': 'ka',
+      ...(body ? { 'Content-Type': 'application/json' } : {}),
+      ...(token ? { Authorization: `Bearer ${token}` } : {}),
+    },
+    body: body ? JSON.stringify(body) : undefined,
+  });
+  const data = res.status === 204 ? null : await res.json();
+  if (!res.ok) throw data; // { status, code, detail, errors? }
+  return data;
+}
+
+const { items } = await api('/api/books?sort=rating');</code></pre></div>
+        <div><strong>მომხმარებლის ციკლი</strong> — რეგისტრაცია → კოდი ინბოქსიდან → დადასტურება → უფასო საცდელი → კითხვა:
+          <pre class="copyable"><code class="language-javascript">const { accessToken } = await api('/api/auth/register', { method: 'POST',
+  body: { firstName: 'Nino', lastName: 'Beridze', email: 'nino@example.com', password: 'Reading2026' } });
+
+const inbox = await api('/api/sandbox/inbox?email=nino@example.com'); // სატესტო "ფოსტა"
+const auth = await api('/api/auth/verify-email', { method: 'POST',
+  body: { email: 'nino@example.com', code: inbox.items[0].code } });
+
+await api('/api/subscription/trial', { method: 'POST', body: { planId: 1 }, token: auth.accessToken });
+const { url } = await api('/api/books/12/read', { token: auth.accessToken }); // → &lt;iframe src={url}&gt;</code></pre></div>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>რესურსები</h2>
+      <div class="grid">
+        <a class="tile" href="/docs.html"><div class="ico">ა</div><h3>ტექნიკური დოკუმენტაცია</h3><p>ყველა ენდპოინტი, მაგალითები, შეცდომები, ბიზნეს-წესები — ქართულად.</p></a>
+        <a class="tile" href="/docs.html?doc=brief"><div class="ico">ბ</div><h3>პროექტის დავალება</h3><p>კლიენტის ბრიფი, user stories, სპრინტები და შეფასების კრიტერიუმები.</p></a>
+        <a class="tile" href="/swagger"><div class="ico">გ</div><h3>Swagger UI</h3><p>სცადეთ ნებისმიერი მოთხოვნა ბრაუზერიდან („Authorize“ → გასაღები + ტოკენი).</p></a>
+        <a class="tile" href="/content/postman/BooksAPI.postman_collection.json" download><div class="ico">დ</div><h3>Postman კოლექცია</h3><p>73 მზა მოთხოვნა; ტოკენები და კოდები ავტომატურად ინახება.</p></a>
+        <a class="tile" href="/app/"><div class="ico">ე</div><h3>სადემონსტრაციო საიტი</h3><p>ასე უნდა მუშაობდეს. ქვედა კუთხეში „API“ პანელი ყველა მოთხოვნას აჩვენებს.</p></a>
+        <a class="tile" href="/brand.html"><div class="ico">ვ</div><h3>ბრენდ-ბუქი</h3><p>ლოგო, ფერები, შრიფტები და წიგნების ყდები თქვენი დიზაინისთვის.</p></a>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>API ერთი შეხედვით</h2>
+      <div class="card" style="padding:0;overflow:hidden">
+        <table class="tbl" style="border:0">
+          <thead><tr><th>ჯგუფი</th><th>რა არის შიგნით</th><th>მაგალითი</th></tr></thead>
+          <tbody>
+            <tr><td>🔐 Auth</td><td>რეგისტრაცია, ელ-ფოსტის დადასტურება, შესვლა, JWT + refresh, პაროლის აღდგენა</td><td><code>POST /api/auth/login</code></td></tr>
+            <tr><td>📚 Books</td><td>კატალოგი ძებნით/ფილტრებით/პაგინაციით, დეტალები, სარჩევი, signed PDF ბმულები</td><td><code>GET /api/books?q=&amp;sort=rating</code></td></tr>
+            <tr><td>💳 Subscription</td><td>გეგმები, 7-დღიანი საცდელი, გადახდა სატესტო ბარათით, გაუქმება/აღდგენა, გეგმის შეცვლა</td><td><code>POST /api/subscription/checkout</code></td></tr>
+            <tr><td>🔖 Library</td><td>რჩეულები, კითხვის პროგრესი, სტატისტიკა და აქტივობის კალენდარი</td><td><code>PUT /api/library/progress/12</code></td></tr>
+            <tr><td>⭐ Reviews</td><td>1–5 ვარსკვლავი და კომენტარები</td><td><code>POST /api/books/12/reviews</code></td></tr>
+            <tr><td>🛠 Admin</td><td>დაფა, წიგნების CRUD + PDF/ყდის ატვირთვა, კატეგორიები, მომხმარებლები, გადახდები</td><td><code>GET /api/admin/stats</code></td></tr>
+            <tr><td>🧪 Sandbox</td><td>წერილების ინბოქსი, სატესტო ბარათები, „დროში მოგზაურობა“</td><td><code>POST /api/sandbox/time-travel</code></td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+  </main>
+
+  <footer><div class="container">BooksAPI · ანბანი — სასწავლო პროექტი STEP IT Academy-სთვის · ტექსტები საზოგადოებრივ საკუთრებაშია (Project Gutenberg, ვიკიწყარო) · <a href="/teacher.html">ლექტორისთვის</a></div></footer>
+
+  <script>
+    const base = location.origin;
+    document.querySelectorAll('[data-base]').forEach((el) => { el.textContent = base; });
+
+    fetch('/health').then((r) => r.json()).then((h) => {
+      const el = document.getElementById('status');
+      el.textContent = h.status === 'healthy' ? 'online' : 'problem';
+      el.classList.add(h.status === 'healthy' ? 'up' : 'down');
+    }).catch(() => { const el = document.getElementById('status'); el.textContent = 'offline'; el.classList.add('down'); });
+
+    // copy buttons on code blocks
+    document.querySelectorAll('pre.copyable').forEach((pre) => {
+      const b = document.createElement('button');
+      b.className = 'copy-btn'; b.textContent = 'copy';
+      b.onclick = () => navigator.clipboard.writeText(pre.innerText.replace(/^copy\n?/, '')).then(() => { b.textContent = '✓'; setTimeout(() => (b.textContent = 'copy'), 1200); });
+      pre.appendChild(b);
+    });
+
+    const form = document.getElementById('key-form');
+    form.addEventListener('submit', async (e) => {
+      e.preventDefault();
+      form.querySelectorAll('.error').forEach((x) => (x.textContent = ''));
+      const data = Object.fromEntries(new FormData(form));
+      const btn = form.querySelector('button');
+      btn.disabled = true;
+      try {
+        const res = await fetch('/api/developer/keys', { method: 'POST', headers: { 'Content-Type': 'application/json', 'Accept-Language': 'ka' }, body: JSON.stringify(data) });
+        const body = await res.json();
+        if (!res.ok) {
+          if (body.errors) Object.entries(body.errors).forEach(([k, v]) => { const el = form.querySelector(`[data-for="${k}"]`); if (el) el.textContent = v.join(' '); });
+          else document.getElementById('form-error').textContent = body.detail;
+          return;
+        }
+        form.hidden = true;
+        document.getElementById('key-result').hidden = false;
+        document.getElementById('key-value').textContent = body.apiKey;
+        document.getElementById('key-env').textContent = body.apiKey;
+        document.querySelectorAll('[data-key]').forEach((el) => { el.textContent = body.apiKey; });
+        document.getElementById('copy-key').onclick = () => navigator.clipboard.writeText(body.apiKey);
+      } catch {
+        document.getElementById('form-error').textContent = 'API მიუწვდომელია.';
+      } finally {
+        btn.disabled = false;
+      }
+    });
+  </script>
+</body>
+</html>

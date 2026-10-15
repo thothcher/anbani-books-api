@@ -1,0 +1,4112 @@
+{
+  "generatedAt": "2026-10-15T09:23:00.107Z",
+  "categories": [
+    {
+      "slug": "georgian",
+      "ka": "ქართული პროზა",
+      "en": "Georgian Prose"
+    },
+    {
+      "slug": "poetry",
+      "ka": "პოეზია",
+      "en": "Poetry"
+    },
+    {
+      "slug": "classics",
+      "ka": "მსოფლიო კლასიკა",
+      "en": "World Classics"
+    },
+    {
+      "slug": "scifi",
+      "ka": "სამეცნიერო ფანტასტიკა",
+      "en": "Science Fiction"
+    },
+    {
+      "slug": "mystery",
+      "ka": "დეტექტივი",
+      "en": "Mystery"
+    },
+    {
+      "slug": "gothic",
+      "ka": "გოთიკა და საშინელებები",
+      "en": "Gothic & Horror"
+    },
+    {
+      "slug": "adventure",
+      "ka": "თავგადასავალი",
+      "en": "Adventure"
+    },
+    {
+      "slug": "philosophy",
+      "ka": "ფილოსოფია და სტრატეგია",
+      "en": "Philosophy & Strategy"
+    },
+    {
+      "slug": "kids",
+      "ka": "საბავშვო",
+      "en": "Children"
+    }
+  ],
+  "books": [
+    {
+      "slug": "otaraant-kvrivi",
+      "title": "ოთარაანთ ქვრივი",
+      "author": "ილია ჭავჭავაძე",
+      "translator": null,
+      "year": 1887,
+      "yearLabel": {
+        "ka": "1887 წ.",
+        "en": "1887"
+      },
+      "language": "ka",
+      "category": "georgian",
+      "isFree": false,
+      "tags": [
+        "ქართული კლასიკა",
+        "მოთხრობა"
+      ],
+      "description": {
+        "ka": "ილია ჭავჭავაძის მოთხრობა ამაყ და შრომისმოყვარე ქვრივზე, მის ვაჟ გიორგიზე და იმ სიყვარულზე, რომელსაც წოდებრივი ზღუდე ეღობება წინ. ჩუმი, მაგრამ ძლიერი ამბავი ადამიანურ ღირსებასა და „ტკბილი სიტყვის“ ფასზე.",
+        "en": "Ilia Chavchavadze's novella about a proud, hard-working widow, her son Giorgi and a love that runs into the walls of social class. A quiet but powerful story about human dignity and the worth of a kind word."
+      },
+      "rating": 4.8,
+      "ratingCount": 912,
+      "readers": 5210,
+      "pages": 103,
+      "previewPages": 12,
+      "words": 15947,
+      "readingMinutes": 94,
+      "chapters": [
+        {
+          "title": "I. რას მიქვიან ტკბილი სიტყვა?",
+          "page": 4,
+          "level": 0
+        },
+        {
+          "title": "II. პილპილ-მოყრილი მადლი",
+          "page": 7,
+          "level": 0
+        },
+        {
+          "title": "III. ხუთი ქისა.",
+          "page": 10,
+          "level": 0
+        },
+        {
+          "title": "IV. განძი და ანდერძი.",
+          "page": 14,
+          "level": 0
+        },
+        {
+          "title": "V. დედა-შვილობა.",
+          "page": 18,
+          "level": 0
+        },
+        {
+          "title": "VI. გიჟია, თუ რა?",
+          "page": 23,
+          "level": 0
+        },
+        {
+          "title": "VII. ჯავრი დედისა.",
+          "page": 29,
+          "level": 0
+        },
+        {
+          "title": "VIII. გასტეხს ქვასაცა მაგარსა...",
+          "page": 35,
+          "level": 0
+        },
+        {
+          "title": "IX. უცნაური ნასკვი.",
+          "page": 41,
+          "level": 0
+        },
+        {
+          "title": "X. მხილებაა, თუ კადნიერება?",
+          "page": 45,
+          "level": 0
+        },
+        {
+          "title": "XI. ორი თვალი.",
+          "page": 49,
+          "level": 0
+        },
+        {
+          "title": "XII. უეცარი წკიპურტი.",
+          "page": 53,
+          "level": 0
+        },
+        {
+          "title": "XIII. ახალი ცოცხი კარგად ჰგვის!..",
+          "page": 57,
+          "level": 0
+        },
+        {
+          "title": "XIV. განა თითონ კი იცოდა",
+          "page": 61,
+          "level": 0
+        },
+        {
+          "title": "XV. კაცია და გუნებაო.",
+          "page": 66,
+          "level": 0
+        },
+        {
+          "title": "XVI. ალბად!..",
+          "page": 68,
+          "level": 0
+        },
+        {
+          "title": "XVII. ზარი.",
+          "page": 73,
+          "level": 0
+        },
+        {
+          "title": "XVIII. უკანასკნელი განდობა",
+          "page": 77,
+          "level": 0
+        },
+        {
+          "title": "XIX. ჩატეხილი ხიდი",
+          "page": 83,
+          "level": 0
+        },
+        {
+          "title": "XX. დასაწყისი განთიადისა.",
+          "page": 89,
+          "level": 0
+        },
+        {
+          "title": "XXI. ეძახის.",
+          "page": 94,
+          "level": 0
+        },
+        {
+          "title": "XXII. წყევა-კრულვიანი საკითხავი.",
+          "page": 99,
+          "level": 0
+        }
+      ],
+      "file": "otaraant-kvrivi.pdf",
+      "previewFile": "otaraant-kvrivi.preview.pdf",
+      "fileSize": 412857,
+      "previewFileSize": 85811,
+      "source": {
+        "name": "ვიკიწყარო",
+        "url": "https://ka.wikisource.org/wiki/%E1%83%9D%E1%83%97%E1%83%90%E1%83%A0%E1%83%90%E1%83%90%E1%83%9C%E1%83%97%20%E1%83%A5%E1%83%95%E1%83%A0%E1%83%98%E1%83%95%E1%83%98"
+      }
+    },
+    {
+      "slug": "katsia-adamiani",
+      "title": "კაცია-ადამიანი?!",
+      "author": "ილია ჭავჭავაძე",
+      "translator": null,
+      "year": 1863,
+      "yearLabel": {
+        "ka": "1863 წ.",
+        "en": "1863"
+      },
+      "language": "ka",
+      "category": "georgian",
+      "isFree": false,
+      "tags": [
+        "სატირა",
+        "ქართული კლასიკა"
+      ],
+      "description": {
+        "ka": "სატირული მოთხრობა თავად ლუარსაბ თათქარიძესა და მის მეუღლე დარეჯანზე — ჭამაში, ჭორებსა და უქმობაში გატარებულ ცხოვრებაზე, რომელიც მკითხველს სათაურის კითხვამდე მიიყვანს: კაცია-ადამიანი?!",
+        "en": "A biting satire of the idle nobility: Prince Luarsab Tatkaridze and his wife Darejan spend their days on food, gossip and nothing at all — until the reader is left with the question in the title: is this a human being?!"
+      },
+      "rating": 4.7,
+      "ratingCount": 804,
+      "readers": 4630,
+      "pages": 127,
+      "previewPages": 15,
+      "words": 22230,
+      "readingMinutes": 131,
+      "chapters": [
+        {
+          "title": "I",
+          "page": 5,
+          "level": 0
+        },
+        {
+          "title": "II",
+          "page": 9,
+          "level": 0
+        },
+        {
+          "title": "III",
+          "page": 21,
+          "level": 0
+        },
+        {
+          "title": "IV",
+          "page": 28,
+          "level": 0
+        },
+        {
+          "title": "V",
+          "page": 50,
+          "level": 0
+        },
+        {
+          "title": "VI",
+          "page": 57,
+          "level": 0
+        },
+        {
+          "title": "VII",
+          "page": 69,
+          "level": 0
+        },
+        {
+          "title": "VIII",
+          "page": 83,
+          "level": 0
+        },
+        {
+          "title": "IX",
+          "page": 88,
+          "level": 0
+        },
+        {
+          "title": "X",
+          "page": 94,
+          "level": 0
+        },
+        {
+          "title": "XI",
+          "page": 105,
+          "level": 0
+        },
+        {
+          "title": "XII",
+          "page": 112,
+          "level": 0
+        },
+        {
+          "title": "XIII",
+          "page": 117,
+          "level": 0
+        },
+        {
+          "title": "XIV",
+          "page": 122,
+          "level": 0
+        },
+        {
+          "title": "შენიშვნები",
+          "page": 127,
+          "level": 0
+        }
+      ],
+      "file": "katsia-adamiani.pdf",
+      "previewFile": "katsia-adamiani.preview.pdf",
+      "fileSize": 528439,
+      "previewFileSize": 101184,
+      "source": {
+        "name": "ვიკიწყარო",
+        "url": "https://ka.wikisource.org/wiki/%E1%83%99%E1%83%90%E1%83%AA%E1%83%98%E1%83%90-%E1%83%90%E1%83%93%E1%83%90%E1%83%9B%E1%83%98%E1%83%90%E1%83%9C%E1%83%98%3F!"
+      }
+    },
+    {
+      "slug": "glakhis-naambobi",
+      "title": "გლახის ნაამბობი",
+      "author": "ილია ჭავჭავაძე",
+      "translator": null,
+      "year": 1873,
+      "yearLabel": {
+        "ka": "1873 წ.",
+        "en": "1873"
+      },
+      "language": "ka",
+      "category": "georgian",
+      "isFree": false,
+      "tags": [
+        "ბატონყმობა",
+        "ქართული კლასიკა"
+      ],
+      "description": {
+        "ka": "გზაში მიმავალი ახალგაზრდა მოხუც გლახაკს ხვდება, რომელიც მას საკუთარ ცხოვრებას უყვება. ილიას ერთ-ერთი ყველაზე მძაფრი ნაწარმოები ბატონყმობის უსამართლობასა და ადამიანურ ტკივილზე.",
+        "en": "A young traveller meets an old beggar on the road, who tells him the story of his life. One of Chavchavadze's most searing works — about the injustice of serfdom and the people it broke."
+      },
+      "rating": 4.6,
+      "ratingCount": 455,
+      "readers": 2380,
+      "pages": 117,
+      "previewPages": 14,
+      "words": 20931,
+      "readingMinutes": 123,
+      "chapters": [
+        {
+          "title": "I",
+          "page": 5,
+          "level": 0
+        },
+        {
+          "title": "II",
+          "page": 8,
+          "level": 0
+        },
+        {
+          "title": "III",
+          "page": 16,
+          "level": 0
+        },
+        {
+          "title": "IV",
+          "page": 27,
+          "level": 0
+        },
+        {
+          "title": "V",
+          "page": 41,
+          "level": 0
+        },
+        {
+          "title": "VI",
+          "page": 50,
+          "level": 0
+        },
+        {
+          "title": "VII",
+          "page": 62,
+          "level": 0
+        },
+        {
+          "title": "VIII",
+          "page": 72,
+          "level": 0
+        },
+        {
+          "title": "IX",
+          "page": 83,
+          "level": 0
+        },
+        {
+          "title": "X",
+          "page": 95,
+          "level": 0
+        },
+        {
+          "title": "XI",
+          "page": 104,
+          "level": 0
+        },
+        {
+          "title": "XII",
+          "page": 113,
+          "level": 0
+        }
+      ],
+      "file": "glakhis-naambobi.pdf",
+      "previewFile": "glakhis-naambobi.preview.pdf",
+      "fileSize": 494939,
+      "previewFileSize": 87327,
+      "source": {
+        "name": "ვიკიწყარო",
+        "url": "https://ka.wikisource.org/wiki/%E1%83%92%E1%83%9A%E1%83%90%E1%83%AE%E1%83%98%E1%83%A1%20%E1%83%9C%E1%83%90%E1%83%90%E1%83%9B%E1%83%91%E1%83%9D%E1%83%91%E1%83%98"
+      }
+    },
+    {
+      "slug": "mamis-mkvleli",
+      "title": "მამის მკვლელი",
+      "author": "ალექსანდრე ყაზბეგი",
+      "translator": null,
+      "year": 1882,
+      "yearLabel": {
+        "ka": "1882 წ.",
+        "en": "1882"
+      },
+      "language": "ka",
+      "category": "georgian",
+      "isFree": false,
+      "tags": [
+        "მთა",
+        "სიყვარული",
+        "თავგადასავალი"
+      ],
+      "description": {
+        "ka": "ყაზბეგის რომანი სიყვარულზე, ღალატსა და ერთგულებაზე მთაში: იაგოსა და ნუნუს ბედნიერებას გირგოლას ინტრიგები ემუქრება, მათ გვერდით კი თავგანწირული კობა დგას.",
+        "en": "Kazbegi's mountain novel of love, betrayal and loyalty: Iago and Nunu's happiness is threatened by the scheming Girgola, while the fearless Koba stands by their side."
+      },
+      "rating": 4.6,
+      "ratingCount": 530,
+      "readers": 3020,
+      "pages": 299,
+      "previewPages": 16,
+      "words": 53693,
+      "readingMinutes": 316,
+      "chapters": [
+        {
+          "title": "ნაწილი პირველი",
+          "page": 4,
+          "level": 0,
+          "isPart": true
+        },
+        {
+          "title": "ნაწილი მეორე",
+          "page": 76,
+          "level": 0,
+          "isPart": true
+        },
+        {
+          "title": "ნაწილი მესამე",
+          "page": 174,
+          "level": 0,
+          "isPart": true
+        }
+      ],
+      "file": "mamis-mkvleli.pdf",
+      "previewFile": "mamis-mkvleli.preview.pdf",
+      "fileSize": 1180408,
+      "previewFileSize": 95984,
+      "source": {
+        "name": "ვიკიწყარო",
+        "url": "https://ka.wikisource.org/wiki/%E1%83%9B%E1%83%90%E1%83%9B%E1%83%98%E1%83%A1%20%E1%83%9B%E1%83%99%E1%83%95%E1%83%9A%E1%83%94%E1%83%9A%E1%83%98"
+      }
+    },
+    {
+      "slug": "samanishvilis-dedinatsvali",
+      "title": "სამანიშვილის დედინაცვალი",
+      "author": "დავით კლდიაშვილი",
+      "translator": null,
+      "year": 1897,
+      "yearLabel": {
+        "ka": "1897 წ.",
+        "en": "1897"
+      },
+      "language": "ka",
+      "category": "georgian",
+      "isFree": false,
+      "tags": [
+        "იუმორი",
+        "ქართული კლასიკა"
+      ],
+      "description": {
+        "ka": "გაღარიბებული აზნაური ბეკინა სამანიშვილი დაქვრივებულ მამას ისეთ ცოლს უძებნის, რომელიც ახალ მემკვიდრეს არ გააჩენს — თორემ ისედაც პატარა მამული კიდევ გაიყოფა. კლდიაშვილთან იუმორი და სევდა ერთად დადის.",
+        "en": "Impoverished nobleman Bekina Samanishvili must find his widowed father a new wife — one who will not give him another heir to split their tiny estate. Kldiashvili's comedy is funny, gentle and quietly heartbreaking."
+      },
+      "rating": 4.7,
+      "ratingCount": 488,
+      "readers": 2890,
+      "pages": 111,
+      "previewPages": 13,
+      "words": 18940,
+      "readingMinutes": 111,
+      "chapters": [
+        {
+          "title": "I",
+          "page": 4,
+          "level": 0
+        },
+        {
+          "title": "II",
+          "page": 11,
+          "level": 0
+        },
+        {
+          "title": "III",
+          "page": 18,
+          "level": 0
+        },
+        {
+          "title": "IV",
+          "page": 26,
+          "level": 0
+        },
+        {
+          "title": "V",
+          "page": 38,
+          "level": 0
+        },
+        {
+          "title": "VI",
+          "page": 46,
+          "level": 0
+        },
+        {
+          "title": "VII",
+          "page": 54,
+          "level": 0
+        },
+        {
+          "title": "VIII",
+          "page": 61,
+          "level": 0
+        },
+        {
+          "title": "IX",
+          "page": 71,
+          "level": 0
+        },
+        {
+          "title": "X",
+          "page": 80,
+          "level": 0
+        },
+        {
+          "title": "XI",
+          "page": 94,
+          "level": 0
+        },
+        {
+          "title": "XII",
+          "page": 105,
+          "level": 0
+        }
+      ],
+      "file": "samanishvilis-dedinatsvali.pdf",
+      "previewFile": "samanishvilis-dedinatsvali.preview.pdf",
+      "fileSize": 459622,
+      "previewFileSize": 84253,
+      "source": {
+        "name": "ვიკიწყარო",
+        "url": "https://ka.wikisource.org/wiki/%E1%83%A1%E1%83%90%E1%83%9B%E1%83%90%E1%83%9C%E1%83%98%E1%83%A8%E1%83%95%E1%83%98%E1%83%9A%E1%83%98%E1%83%A1%20%E1%83%93%E1%83%94%E1%83%93%E1%83%98%E1%83%9C%E1%83%90%E1%83%AA%E1%83%95%E1%83%90%E1%83%9A%E1%83%98"
+      }
+    },
+    {
+      "slug": "jakos-khiznebi",
+      "title": "ჯაყოს ხიზნები",
+      "author": "მიხეილ ჯავახიშვილი",
+      "translator": null,
+      "year": 1925,
+      "yearLabel": {
+        "ka": "1925 წ.",
+        "en": "1925"
+      },
+      "language": "ka",
+      "category": "georgian",
+      "isFree": false,
+      "tags": [
+        "რომანი",
+        "XX საუკუნე"
+      ],
+      "description": {
+        "ka": "რევოლუციის შემდეგ ნათავადარი თეიმურაზ ხევისთავი თავის ყოფილ ხიზანს, უხეშ და ცბიერ ჯაყოს მიეკედლება — და ნელ-ნელა ყველაფერს კარგავს: სახლს, ღირსებას, ცოლსაც. ქართული პროზის ერთ-ერთი ყველაზე მძაფრი რომანი.",
+        "en": "After the revolution, the gentle, bookish former prince Teimuraz Khevistavi turns to his old tenant, the crude and cunning Jaqo — and slowly loses everything to him: his home, his dignity, his wife. One of the most powerful novels in Georgian prose."
+      },
+      "rating": 4.9,
+      "ratingCount": 1034,
+      "readers": 6120,
+      "pages": 313,
+      "previewPages": 17,
+      "words": 51045,
+      "readingMinutes": 300,
+      "chapters": [
+        {
+          "title": "ნაწილი პირველი",
+          "page": 5,
+          "level": 0,
+          "isPart": true
+        },
+        {
+          "title": "I",
+          "page": 6,
+          "level": 1
+        },
+        {
+          "title": "II",
+          "page": 13,
+          "level": 1
+        },
+        {
+          "title": "III",
+          "page": 24,
+          "level": 1
+        },
+        {
+          "title": "IV",
+          "page": 41,
+          "level": 1
+        },
+        {
+          "title": "V",
+          "page": 54,
+          "level": 1
+        },
+        {
+          "title": "VI",
+          "page": 59,
+          "level": 1
+        },
+        {
+          "title": "VII",
+          "page": 70,
+          "level": 1
+        },
+        {
+          "title": "VIII",
+          "page": 82,
+          "level": 1
+        },
+        {
+          "title": "IX",
+          "page": 90,
+          "level": 1
+        },
+        {
+          "title": "ნაწილი მეორე",
+          "page": 105,
+          "level": 0,
+          "isPart": true
+        },
+        {
+          "title": "I",
+          "page": 106,
+          "level": 1
+        },
+        {
+          "title": "II",
+          "page": 122,
+          "level": 1
+        },
+        {
+          "title": "III",
+          "page": 134,
+          "level": 1
+        },
+        {
+          "title": "IV",
+          "page": 151,
+          "level": 1
+        },
+        {
+          "title": "V",
+          "page": 164,
+          "level": 1
+        },
+        {
+          "title": "VI",
+          "page": 181,
+          "level": 1
+        },
+        {
+          "title": "VII",
+          "page": 191,
+          "level": 1
+        },
+        {
+          "title": "VIII",
+          "page": 201,
+          "level": 1
+        },
+        {
+          "title": "IX",
+          "page": 230,
+          "level": 1
+        },
+        {
+          "title": "ნაწილი მესამე",
+          "page": 238,
+          "level": 0,
+          "isPart": true
+        },
+        {
+          "title": "I",
+          "page": 239,
+          "level": 1
+        },
+        {
+          "title": "II",
+          "page": 247,
+          "level": 1
+        },
+        {
+          "title": "III",
+          "page": 254,
+          "level": 1
+        },
+        {
+          "title": "IV",
+          "page": 265,
+          "level": 1
+        },
+        {
+          "title": "V",
+          "page": 275,
+          "level": 1
+        },
+        {
+          "title": "VI",
+          "page": 288,
+          "level": 1
+        },
+        {
+          "title": "VII",
+          "page": 299,
+          "level": 1
+        }
+      ],
+      "file": "jakos-khiznebi.pdf",
+      "previewFile": "jakos-khiznebi.preview.pdf",
+      "fileSize": 1171757,
+      "previewFileSize": 94491,
+      "source": {
+        "name": "ვიკიწყარო",
+        "url": "https://ka.wikisource.org/wiki/%E1%83%AF%E1%83%90%E1%83%A7%E1%83%9D%E1%83%A1%20%E1%83%AE%E1%83%98%E1%83%96%E1%83%9C%E1%83%94%E1%83%91%E1%83%98"
+      }
+    },
+    {
+      "slug": "bashi-achuki",
+      "title": "ბაში-აჩუკი",
+      "author": "აკაკი წერეთელი",
+      "translator": null,
+      "year": 1895,
+      "yearLabel": {
+        "ka": "1895 წ.",
+        "en": "1895"
+      },
+      "language": "ka",
+      "category": "georgian",
+      "isFree": false,
+      "tags": [
+        "ისტორიული",
+        "ქართული კლასიკა"
+      ],
+      "description": {
+        "ka": "XVII საუკუნის კახეთი, სპარსელთა ბატონობა და საიდუმლოებით მოცული გმირი, რომელსაც ბაში-აჩუკს ეძახიან. აკაკის ისტორიული მოთხრობა ვაჟკაცობასა და სამშობლოს სიყვარულზე.",
+        "en": "Seventeenth-century Kakheti under Persian rule, and a mysterious hero known as Bashi-Achuki. Akaki Tsereteli's historical novella about courage and love of one's homeland."
+      },
+      "rating": 4.5,
+      "ratingCount": 377,
+      "readers": 1980,
+      "pages": 91,
+      "previewPages": 11,
+      "words": 14995,
+      "readingMinutes": 88,
+      "chapters": [
+        {
+          "title": "თავი პირველი",
+          "page": 4,
+          "level": 0
+        },
+        {
+          "title": "თავი მეორე",
+          "page": 10,
+          "level": 0
+        },
+        {
+          "title": "თავი მესამე",
+          "page": 24,
+          "level": 0
+        },
+        {
+          "title": "თავი მეოთხე",
+          "page": 29,
+          "level": 0
+        },
+        {
+          "title": "თავი მეხუთე",
+          "page": 34,
+          "level": 0
+        },
+        {
+          "title": "თავი მეექვსე",
+          "page": 42,
+          "level": 0
+        },
+        {
+          "title": "თავი მეშვიდე",
+          "page": 50,
+          "level": 0
+        },
+        {
+          "title": "თავი მერვე",
+          "page": 57,
+          "level": 0
+        },
+        {
+          "title": "თავი მეცხრე",
+          "page": 60,
+          "level": 0
+        },
+        {
+          "title": "თავი მეათე",
+          "page": 64,
+          "level": 0
+        },
+        {
+          "title": "თავი მეთერთმეტე",
+          "page": 71,
+          "level": 0
+        },
+        {
+          "title": "თავი მეთორმეტე",
+          "page": 74,
+          "level": 0
+        },
+        {
+          "title": "თავი მეცამეტე",
+          "page": 79,
+          "level": 0
+        },
+        {
+          "title": "თავი მეთოთხმეტე",
+          "page": 82,
+          "level": 0
+        },
+        {
+          "title": "თავი მეთხუთმეტე",
+          "page": 87,
+          "level": 0
+        }
+      ],
+      "file": "bashi-achuki.pdf",
+      "previewFile": "bashi-achuki.preview.pdf",
+      "fileSize": 390394,
+      "previewFileSize": 78958,
+      "source": {
+        "name": "ვიკიწყარო",
+        "url": "https://ka.wikisource.org/wiki/%E1%83%91%E1%83%90%E1%83%A8%E1%83%98-%E1%83%90%E1%83%A9%E1%83%A3%E1%83%99%E1%83%98"
+      }
+    },
+    {
+      "slug": "gandegili",
+      "title": "განდეგილი",
+      "author": "ილია ჭავჭავაძე",
+      "translator": null,
+      "year": 1883,
+      "yearLabel": {
+        "ka": "1883 წ.",
+        "en": "1883"
+      },
+      "language": "ka",
+      "category": "poetry",
+      "isFree": false,
+      "tags": [
+        "პოემა",
+        "ქართული კლასიკა"
+      ],
+      "description": {
+        "ka": "მყინვარწვერის გამოქვაბულში წლების განმავლობაში ლოცვაში მცხოვრები ბერის მყუდროებას ერთ ავდრიან ღამეს მოულოდნელი სტუმარი არღვევს. ილიას პოემა რწმენაზე, ცდუნებასა და ადამიანის ბუნებაზე.",
+        "en": "For years a hermit has lived in prayer in a cave high on Mount Kazbek — until one stormy night an unexpected guest disturbs his peace. Chavchavadze's poem about faith, temptation and human nature."
+      },
+      "rating": 4.7,
+      "ratingCount": 512,
+      "readers": 3180,
+      "pages": 34,
+      "previewPages": 9,
+      "words": 2524,
+      "readingMinutes": 15,
+      "chapters": [
+        {
+          "title": "I",
+          "page": 6,
+          "level": 0
+        },
+        {
+          "title": "II",
+          "page": 7,
+          "level": 0
+        },
+        {
+          "title": "III",
+          "page": 8,
+          "level": 0
+        },
+        {
+          "title": "IV",
+          "page": 9,
+          "level": 0
+        },
+        {
+          "title": "V",
+          "page": 10,
+          "level": 0
+        },
+        {
+          "title": "VI",
+          "page": 11,
+          "level": 0
+        },
+        {
+          "title": "VII",
+          "page": 12,
+          "level": 0
+        },
+        {
+          "title": "VIII",
+          "page": 13,
+          "level": 0
+        },
+        {
+          "title": "IX",
+          "page": 14,
+          "level": 0
+        },
+        {
+          "title": "X",
+          "page": 15,
+          "level": 0
+        },
+        {
+          "title": "XI",
+          "page": 16,
+          "level": 0
+        },
+        {
+          "title": "XII",
+          "page": 17,
+          "level": 0
+        },
+        {
+          "title": "XIII",
+          "page": 18,
+          "level": 0
+        },
+        {
+          "title": "XIV",
+          "page": 19,
+          "level": 0
+        },
+        {
+          "title": "XV",
+          "page": 20,
+          "level": 0
+        },
+        {
+          "title": "XVI",
+          "page": 21,
+          "level": 0
+        },
+        {
+          "title": "XVII",
+          "page": 22,
+          "level": 0
+        },
+        {
+          "title": "XVIII",
+          "page": 23,
+          "level": 0
+        },
+        {
+          "title": "XIX",
+          "page": 24,
+          "level": 0
+        },
+        {
+          "title": "XX",
+          "page": 25,
+          "level": 0
+        },
+        {
+          "title": "XXI",
+          "page": 26,
+          "level": 0
+        },
+        {
+          "title": "XXII",
+          "page": 27,
+          "level": 0
+        },
+        {
+          "title": "XXIII",
+          "page": 28,
+          "level": 0
+        },
+        {
+          "title": "XXIV",
+          "page": 29,
+          "level": 0
+        },
+        {
+          "title": "XXV",
+          "page": 30,
+          "level": 0
+        },
+        {
+          "title": "XXVI",
+          "page": 31,
+          "level": 0
+        },
+        {
+          "title": "XXVII",
+          "page": 32,
+          "level": 0
+        },
+        {
+          "title": "XXVIII",
+          "page": 33,
+          "level": 0
+        }
+      ],
+      "file": "gandegili.pdf",
+      "previewFile": "gandegili.preview.pdf",
+      "fileSize": 128296,
+      "previewFileSize": 60693,
+      "source": {
+        "name": "ვიკიწყარო",
+        "url": "https://ka.wikisource.org/wiki/%E1%83%92%E1%83%90%E1%83%9C%E1%83%93%E1%83%94%E1%83%92%E1%83%98%E1%83%9A%E1%83%98"
+      }
+    },
+    {
+      "slug": "aluda-ketelauri",
+      "title": "ალუდა ქეთელაური",
+      "author": "ვაჟა-ფშაველა",
+      "translator": null,
+      "year": 1888,
+      "yearLabel": {
+        "ka": "1888 წ.",
+        "en": "1888"
+      },
+      "language": "ka",
+      "category": "poetry",
+      "isFree": true,
+      "tags": [
+        "პოემა",
+        "მთა"
+      ],
+      "description": {
+        "ka": "ხევსური მეომარი ალუდა ქეთელაური ბრძოლაში ქისტ მუცალს კლავს, მაგრამ მტრის ვაჟკაცობით შეძრული საკუთარი თემის წესს უპირისპირდება. პოემა ადამიანობაზე, რომელიც ყველა საზღვარს სცდება.",
+        "en": "The Khevsur warrior Aluda Ketelauri kills the Kist fighter Mutsal in battle — then, moved by his enemy's courage, defies the customs of his own community. A poem about a humanity that crosses every border."
+      },
+      "rating": 4.9,
+      "ratingCount": 702,
+      "readers": 4410,
+      "pages": 26,
+      "previewPages": 8,
+      "words": 1915,
+      "readingMinutes": 11,
+      "chapters": [
+        {
+          "title": "I",
+          "page": 5,
+          "level": 0
+        },
+        {
+          "title": "II",
+          "page": 9,
+          "level": 0
+        },
+        {
+          "title": "III",
+          "page": 14,
+          "level": 0
+        },
+        {
+          "title": "IV",
+          "page": 16,
+          "level": 0
+        },
+        {
+          "title": "V",
+          "page": 18,
+          "level": 0
+        },
+        {
+          "title": "VI",
+          "page": 23,
+          "level": 0
+        }
+      ],
+      "file": "aluda-ketelauri.pdf",
+      "previewFile": "aluda-ketelauri.preview.pdf",
+      "fileSize": 105601,
+      "previewFileSize": 60267,
+      "source": {
+        "name": "ვიკიწყარო",
+        "url": "https://ka.wikisource.org/wiki/%E1%83%90%E1%83%9A%E1%83%A3%E1%83%93%E1%83%90%20%E1%83%A5%E1%83%94%E1%83%97%E1%83%94%E1%83%9A%E1%83%90%E1%83%A3%E1%83%A0%E1%83%98"
+      }
+    },
+    {
+      "slug": "stumar-maspindzeli",
+      "title": "სტუმარ-მასპინძელი",
+      "author": "ვაჟა-ფშაველა",
+      "translator": null,
+      "year": 1893,
+      "yearLabel": {
+        "ka": "1893 წ.",
+        "en": "1893"
+      },
+      "language": "ka",
+      "category": "poetry",
+      "isFree": false,
+      "tags": [
+        "პოემა",
+        "მთა"
+      ],
+      "description": {
+        "ka": "ქისტი ჯოყოლა სახლში იღებს თავის მტერს, ხევსურ ზვიადაურს, რადგან სტუმარი წმინდაა. თემი კი სხვაგვარად ფიქრობს. ტრაგედია სტუმარ-მასპინძლობაზე, პატიოსნებასა და არჩევანის გამბედაობაზე.",
+        "en": "The Kist Joqola takes his enemy, the Khevsur Zviadauri, into his home — because a guest is sacred. His community disagrees. A tragedy about hospitality, honour and the courage to choose."
+      },
+      "rating": 4.9,
+      "ratingCount": 655,
+      "readers": 3970,
+      "pages": 43,
+      "previewPages": 7,
+      "words": 3587,
+      "readingMinutes": 21,
+      "chapters": [
+        {
+          "title": "I",
+          "page": 4,
+          "level": 0
+        },
+        {
+          "title": "II",
+          "page": 5,
+          "level": 0
+        },
+        {
+          "title": "III",
+          "page": 9,
+          "level": 0
+        },
+        {
+          "title": "IV",
+          "page": 11,
+          "level": 0
+        },
+        {
+          "title": "V",
+          "page": 14,
+          "level": 0
+        },
+        {
+          "title": "VI",
+          "page": 19,
+          "level": 0
+        },
+        {
+          "title": "VII",
+          "page": 21,
+          "level": 0
+        },
+        {
+          "title": "VIII",
+          "page": 28,
+          "level": 0
+        },
+        {
+          "title": "IX",
+          "page": 32,
+          "level": 0
+        },
+        {
+          "title": "X",
+          "page": 33,
+          "level": 0
+        },
+        {
+          "title": "XI",
+          "page": 34,
+          "level": 0
+        },
+        {
+          "title": "XII",
+          "page": 36,
+          "level": 0
+        },
+        {
+          "title": "XIII",
+          "page": 39,
+          "level": 0
+        },
+        {
+          "title": "XIV",
+          "page": 40,
+          "level": 0
+        },
+        {
+          "title": "XV",
+          "page": 42,
+          "level": 0
+        }
+      ],
+      "file": "stumar-maspindzeli.pdf",
+      "previewFile": "stumar-maspindzeli.preview.pdf",
+      "fileSize": 157036,
+      "previewFileSize": 62348,
+      "source": {
+        "name": "ვიკიწყარო",
+        "url": "https://ka.wikisource.org/wiki/%E1%83%A1%E1%83%A2%E1%83%A3%E1%83%9B%E1%83%90%E1%83%A0-%E1%83%9B%E1%83%90%E1%83%A1%E1%83%9E%E1%83%98%E1%83%9C%E1%83%AB%E1%83%94%E1%83%9A%E1%83%98"
+      }
+    },
+    {
+      "slug": "gvelis-mchameli",
+      "title": "გველის მჭამელი",
+      "author": "ვაჟა-ფშაველა",
+      "translator": null,
+      "year": 1901,
+      "yearLabel": {
+        "ka": "1901 წ.",
+        "en": "1901"
+      },
+      "language": "ka",
+      "category": "poetry",
+      "isFree": false,
+      "tags": [
+        "პოემა",
+        "ბუნება"
+      ],
+      "description": {
+        "ka": "მინდიამ გველის ხორცი იგემა და ბუნების ენა გაიგო — ხეების, ბალახისა და ცხოველების. მაგრამ ოჯახის საჭიროებები მას ბუნების წინააღმდეგ აყენებს. პოემა ადამიანისა და ბუნების ჰარმონიაზე.",
+        "en": "After tasting snake flesh, Mindia comes to understand the language of nature — of trees, grass and animals. But the needs of his family push him to turn against it. A poem about people and the natural world."
+      },
+      "rating": 4.8,
+      "ratingCount": 418,
+      "readers": 2510,
+      "pages": 49,
+      "previewPages": 9,
+      "words": 3959,
+      "readingMinutes": 23,
+      "chapters": [
+        {
+          "title": "I",
+          "page": 5,
+          "level": 0
+        },
+        {
+          "title": "II",
+          "page": 9,
+          "level": 0
+        },
+        {
+          "title": "III",
+          "page": 12,
+          "level": 0
+        },
+        {
+          "title": "IV",
+          "page": 14,
+          "level": 0
+        },
+        {
+          "title": "V",
+          "page": 18,
+          "level": 0
+        },
+        {
+          "title": "VI",
+          "page": 18,
+          "level": 0
+        },
+        {
+          "title": "VII",
+          "page": 26,
+          "level": 0
+        },
+        {
+          "title": "VIII",
+          "page": 28,
+          "level": 0
+        },
+        {
+          "title": "IX",
+          "page": 32,
+          "level": 0
+        },
+        {
+          "title": "X",
+          "page": 33,
+          "level": 0
+        },
+        {
+          "title": "XI",
+          "page": 44,
+          "level": 0
+        },
+        {
+          "title": "XII",
+          "page": 46,
+          "level": 0
+        }
+      ],
+      "file": "gvelis-mchameli.pdf",
+      "previewFile": "gvelis-mchameli.preview.pdf",
+      "fileSize": 161271,
+      "previewFileSize": 62081,
+      "source": {
+        "name": "ვიკიწყარო",
+        "url": "https://ka.wikisource.org/wiki/%E1%83%92%E1%83%95%E1%83%94%E1%83%9A%E1%83%98%E1%83%A1%20%E1%83%9B%E1%83%AD%E1%83%90%E1%83%9B%E1%83%94%E1%83%9A%E1%83%98"
+      }
+    },
+    {
+      "slug": "pride-and-prejudice",
+      "title": "Pride and Prejudice",
+      "author": "Jane Austen",
+      "translator": null,
+      "year": 1813,
+      "yearLabel": {
+        "ka": "1813 წ.",
+        "en": "1813"
+      },
+      "language": "en",
+      "category": "classics",
+      "isFree": false,
+      "tags": [
+        "romance",
+        "classic"
+      ],
+      "description": {
+        "ka": "ელიზაბეტ ბენეტი და ამაყი მისტერ დარსი — ორი ჭკვიანი ადამიანი, რომლებსაც ერთმანეთზე სრულიად მცდარი პირველი შთაბეჭდილება აქვთ. ინგლისური ლიტერატურის ერთ-ერთი ყველაზე საყვარელი რომანი სიამაყეზე, ცრურწმენასა და სიყვარულზე.",
+        "en": "Elizabeth Bennet and the proud Mr Darcy — two clever people with entirely wrong first impressions of each other. The most beloved English novel about pride, prejudice and falling in love anyway."
+      },
+      "rating": 4.8,
+      "ratingCount": 1550,
+      "readers": 8900,
+      "pages": 452,
+      "previewPages": 18,
+      "words": 122176,
+      "readingMinutes": 531,
+      "chapters": [
+        {
+          "title": "Chapter I · ]",
+          "page": 6,
+          "level": 0
+        },
+        {
+          "title": "Chapter II",
+          "page": 10,
+          "level": 0
+        },
+        {
+          "title": "Chapter III",
+          "page": 13,
+          "level": 0
+        },
+        {
+          "title": "Chapter IV",
+          "page": 19,
+          "level": 0
+        },
+        {
+          "title": "Chapter V",
+          "page": 23,
+          "level": 0
+        },
+        {
+          "title": "Chapter VI",
+          "page": 27,
+          "level": 0
+        },
+        {
+          "title": "Chapter VII",
+          "page": 35,
+          "level": 0
+        },
+        {
+          "title": "Chapter VIII",
+          "page": 43,
+          "level": 0
+        },
+        {
+          "title": "Chapter IX",
+          "page": 51,
+          "level": 0
+        },
+        {
+          "title": "Chapter X",
+          "page": 57,
+          "level": 0
+        },
+        {
+          "title": "Chapter XI",
+          "page": 65,
+          "level": 0
+        },
+        {
+          "title": "Chapter XII",
+          "page": 71,
+          "level": 0
+        },
+        {
+          "title": "Chapter XIII",
+          "page": 74,
+          "level": 0
+        },
+        {
+          "title": "Chapter XIV",
+          "page": 81,
+          "level": 0
+        },
+        {
+          "title": "Chapter XV",
+          "page": 86,
+          "level": 0
+        },
+        {
+          "title": "Chapter XVI",
+          "page": 92,
+          "level": 0
+        },
+        {
+          "title": "Chapter XVII",
+          "page": 104,
+          "level": 0
+        },
+        {
+          "title": "Chapter XVIII",
+          "page": 109,
+          "level": 0
+        },
+        {
+          "title": "Chapter XIX",
+          "page": 126,
+          "level": 0
+        },
+        {
+          "title": "Chapter XX",
+          "page": 133,
+          "level": 0
+        },
+        {
+          "title": "Chapter XXI",
+          "page": 139,
+          "level": 0
+        },
+        {
+          "title": "Chapter XXII",
+          "page": 146,
+          "level": 0
+        },
+        {
+          "title": "Chapter XXIII",
+          "page": 152,
+          "level": 0
+        },
+        {
+          "title": "Chapter XXIV",
+          "page": 158,
+          "level": 0
+        },
+        {
+          "title": "Chapter XXV",
+          "page": 165,
+          "level": 0
+        },
+        {
+          "title": "Chapter XXVI",
+          "page": 171,
+          "level": 0
+        },
+        {
+          "title": "Chapter XXVII",
+          "page": 180,
+          "level": 0
+        },
+        {
+          "title": "Chapter XXVIII",
+          "page": 185,
+          "level": 0
+        },
+        {
+          "title": "Chapter XXIX",
+          "page": 190,
+          "level": 0
+        },
+        {
+          "title": "Chapter XXX",
+          "page": 199,
+          "level": 0
+        },
+        {
+          "title": "Chapter XXXI",
+          "page": 204,
+          "level": 0
+        },
+        {
+          "title": "Chapter XXXII",
+          "page": 210,
+          "level": 0
+        },
+        {
+          "title": "Chapter XXXIII",
+          "page": 216,
+          "level": 0
+        },
+        {
+          "title": "Chapter XXXIV",
+          "page": 223,
+          "level": 0
+        },
+        {
+          "title": "Chapter XXXV",
+          "page": 231,
+          "level": 0
+        },
+        {
+          "title": "Chapter XXXVI",
+          "page": 241,
+          "level": 0
+        },
+        {
+          "title": "Chapter XXXVII",
+          "page": 248,
+          "level": 0
+        },
+        {
+          "title": "Chapter XXXVIII",
+          "page": 253,
+          "level": 0
+        },
+        {
+          "title": "Chapter XXXIX",
+          "page": 257,
+          "level": 0
+        },
+        {
+          "title": "Chapter XL",
+          "page": 263,
+          "level": 0
+        },
+        {
+          "title": "Chapter XLI",
+          "page": 269,
+          "level": 0
+        },
+        {
+          "title": "Chapter XLII",
+          "page": 277,
+          "level": 0
+        },
+        {
+          "title": "Chapter XLIII",
+          "page": 284,
+          "level": 0
+        },
+        {
+          "title": "Chapter XLIV",
+          "page": 300,
+          "level": 0
+        },
+        {
+          "title": "Chapter XLV",
+          "page": 308,
+          "level": 0
+        },
+        {
+          "title": "Chapter XLVI",
+          "page": 314,
+          "level": 0
+        },
+        {
+          "title": "Chapter XLVII",
+          "page": 324,
+          "level": 0
+        },
+        {
+          "title": "Chapter XLVIII",
+          "page": 338,
+          "level": 0
+        },
+        {
+          "title": "Chapter XLIX",
+          "page": 347,
+          "level": 0
+        },
+        {
+          "title": "Chapter L",
+          "page": 356,
+          "level": 0
+        },
+        {
+          "title": "Chapter LI",
+          "page": 364,
+          "level": 0
+        },
+        {
+          "title": "Chapter LII",
+          "page": 371,
+          "level": 0
+        },
+        {
+          "title": "Chapter LIII",
+          "page": 384,
+          "level": 0
+        },
+        {
+          "title": "Chapter LIV",
+          "page": 394,
+          "level": 0
+        },
+        {
+          "title": "Chapter LV",
+          "page": 400,
+          "level": 0
+        },
+        {
+          "title": "Chapter LVI",
+          "page": 408,
+          "level": 0
+        },
+        {
+          "title": "Chapter LVII",
+          "page": 418,
+          "level": 0
+        },
+        {
+          "title": "Chapter LVIII",
+          "page": 424,
+          "level": 0
+        },
+        {
+          "title": "Chapter LIX",
+          "page": 433,
+          "level": 0
+        },
+        {
+          "title": "Chapter LX",
+          "page": 442,
+          "level": 0
+        },
+        {
+          "title": "Chapter LXI",
+          "page": 448,
+          "level": 0
+        }
+      ],
+      "file": "pride-and-prejudice.pdf",
+      "previewFile": "pride-and-prejudice.preview.pdf",
+      "fileSize": 1948848,
+      "previewFileSize": 94060,
+      "source": {
+        "name": "Project Gutenberg",
+        "url": "https://www.gutenberg.org/ebooks/1342"
+      }
+    },
+    {
+      "slug": "dorian-gray",
+      "title": "The Picture of Dorian Gray",
+      "author": "Oscar Wilde",
+      "translator": null,
+      "year": 1890,
+      "yearLabel": {
+        "ka": "1890 წ.",
+        "en": "1890"
+      },
+      "language": "en",
+      "category": "classics",
+      "isFree": false,
+      "tags": [
+        "classic",
+        "gothic"
+      ],
+      "description": {
+        "ka": "ლამაზი ახალგაზრდა დორიან გრეი ისურვებს, რომ მის ნაცვლად პორტრეტი დაბერდეს — და სურვილი უსრულდება. უაილდის ერთადერთი რომანი სილამაზეზე, გახრწნასა და სინდისის ფასზე.",
+        "en": "Beautiful young Dorian Gray wishes that his portrait would age instead of him — and the wish comes true. Wilde's only novel, about beauty, corruption and the price of a conscience."
+      },
+      "rating": 4.6,
+      "ratingCount": 980,
+      "readers": 6100,
+      "pages": 264,
+      "previewPages": 16,
+      "words": 78886,
+      "readingMinutes": 343,
+      "chapters": [
+        {
+          "title": "The Preface",
+          "page": 4,
+          "level": 0
+        },
+        {
+          "title": "Chapter I",
+          "page": 6,
+          "level": 0
+        },
+        {
+          "title": "Chapter II",
+          "page": 22,
+          "level": 0
+        },
+        {
+          "title": "Chapter III",
+          "page": 40,
+          "level": 0
+        },
+        {
+          "title": "Chapter IV",
+          "page": 55,
+          "level": 0
+        },
+        {
+          "title": "Chapter V",
+          "page": 73,
+          "level": 0
+        },
+        {
+          "title": "Chapter VI",
+          "page": 87,
+          "level": 0
+        },
+        {
+          "title": "Chapter VII",
+          "page": 96,
+          "level": 0
+        },
+        {
+          "title": "Chapter VIII",
+          "page": 110,
+          "level": 0
+        },
+        {
+          "title": "Chapter IX",
+          "page": 126,
+          "level": 0
+        },
+        {
+          "title": "Chapter X",
+          "page": 138,
+          "level": 0
+        },
+        {
+          "title": "Chapter XI",
+          "page": 149,
+          "level": 0
+        },
+        {
+          "title": "Chapter XII",
+          "page": 172,
+          "level": 0
+        },
+        {
+          "title": "Chapter XIII",
+          "page": 181,
+          "level": 0
+        },
+        {
+          "title": "Chapter XIV",
+          "page": 190,
+          "level": 0
+        },
+        {
+          "title": "Chapter XV",
+          "page": 205,
+          "level": 0
+        },
+        {
+          "title": "Chapter XVI",
+          "page": 216,
+          "level": 0
+        },
+        {
+          "title": "Chapter XVII",
+          "page": 227,
+          "level": 0
+        },
+        {
+          "title": "Chapter XVIII",
+          "page": 235,
+          "level": 0
+        },
+        {
+          "title": "Chapter XIX",
+          "page": 247,
+          "level": 0
+        },
+        {
+          "title": "Chapter XX",
+          "page": 258,
+          "level": 0
+        }
+      ],
+      "file": "dorian-gray.pdf",
+      "previewFile": "dorian-gray.preview.pdf",
+      "fileSize": 1240495,
+      "previewFileSize": 96511,
+      "source": {
+        "name": "Project Gutenberg",
+        "url": "https://www.gutenberg.org/ebooks/174"
+      }
+    },
+    {
+      "slug": "metamorphosis",
+      "title": "Metamorphosis",
+      "author": "Franz Kafka",
+      "translator": "David Wyllie",
+      "year": 1915,
+      "yearLabel": {
+        "ka": "1915 წ.",
+        "en": "1915"
+      },
+      "language": "en",
+      "category": "classics",
+      "isFree": false,
+      "tags": [
+        "novella",
+        "classic"
+      ],
+      "description": {
+        "ka": "ერთ დილას გრეგორ ზამზა საწოლში უზარმაზარ მწერად ქცეული იღვიძებს. კაფკას მოთხრობა გაუცხოებაზე, ოჯახსა და იმაზე, რა ღირს ადამიანი, როცა „სასარგებლო“ აღარ არის.",
+        "en": "One morning Gregor Samsa wakes up transformed into a monstrous insect. Kafka's novella about alienation, family and what a person is worth once they stop being \"useful\"."
+      },
+      "rating": 4.5,
+      "ratingCount": 870,
+      "readers": 5400,
+      "pages": 68,
+      "previewPages": 9,
+      "words": 21932,
+      "readingMinutes": 95,
+      "chapters": [
+        {
+          "title": "I",
+          "page": 4,
+          "level": 0
+        },
+        {
+          "title": "II",
+          "page": 25,
+          "level": 0
+        },
+        {
+          "title": "III",
+          "page": 47,
+          "level": 0
+        }
+      ],
+      "file": "metamorphosis.pdf",
+      "previewFile": "metamorphosis.preview.pdf",
+      "fileSize": 362118,
+      "previewFileSize": 66936,
+      "source": {
+        "name": "Project Gutenberg",
+        "url": "https://www.gutenberg.org/ebooks/5200"
+      }
+    },
+    {
+      "slug": "time-machine",
+      "title": "The Time Machine",
+      "author": "H. G. Wells",
+      "translator": null,
+      "year": 1895,
+      "yearLabel": {
+        "ka": "1895 წ.",
+        "en": "1895"
+      },
+      "language": "en",
+      "category": "scifi",
+      "isFree": false,
+      "tags": [
+        "time travel",
+        "classic"
+      ],
+      "description": {
+        "ka": "ვიქტორიანელი გამომგონებელი 802 701 წელში მოგზაურობს და კაცობრიობის ორად გაყოფილ შთამომავლობას — ელოებსა და მორლოკებს ხვდება. სამეცნიერო ფანტასტიკის ერთ-ერთი ფუძემდებელი წიგნი.",
+        "en": "A Victorian inventor travels to the year 802,701 and finds humanity split into the gentle Eloi and the subterranean Morlocks. One of the founding books of science fiction."
+      },
+      "rating": 4.4,
+      "ratingCount": 760,
+      "readers": 4800,
+      "pages": 112,
+      "previewPages": 13,
+      "words": 32311,
+      "readingMinutes": 140,
+      "chapters": [
+        {
+          "title": "I. Introduction",
+          "page": 4,
+          "level": 0
+        },
+        {
+          "title": "II. The Machine",
+          "page": 11,
+          "level": 0
+        },
+        {
+          "title": "III. The Time Traveller Returns",
+          "page": 16,
+          "level": 0
+        },
+        {
+          "title": "IV. Time Travelling",
+          "page": 23,
+          "level": 0
+        },
+        {
+          "title": "V. In the Golden Age",
+          "page": 30,
+          "level": 0
+        },
+        {
+          "title": "VI. The Sunset of Mankind",
+          "page": 36,
+          "level": 0
+        },
+        {
+          "title": "VII. A Sudden Shock",
+          "page": 44,
+          "level": 0
+        },
+        {
+          "title": "VIII. Explanation",
+          "page": 51,
+          "level": 0
+        },
+        {
+          "title": "IX. The Morlocks",
+          "page": 64,
+          "level": 0
+        },
+        {
+          "title": "X. When Night Came",
+          "page": 71,
+          "level": 0
+        },
+        {
+          "title": "XI. The Palace of Green Porcelain",
+          "page": 79,
+          "level": 0
+        },
+        {
+          "title": "XII. In the Darkness",
+          "page": 87,
+          "level": 0
+        },
+        {
+          "title": "XIII. The Trap of the White Sphinx",
+          "page": 95,
+          "level": 0
+        },
+        {
+          "title": "XIV. The Further Vision",
+          "page": 99,
+          "level": 0
+        },
+        {
+          "title": "XV. The Time Traveller’s Return",
+          "page": 105,
+          "level": 0
+        },
+        {
+          "title": "XVI. After the Story",
+          "page": 107,
+          "level": 0
+        }
+      ],
+      "file": "time-machine.pdf",
+      "previewFile": "time-machine.preview.pdf",
+      "fileSize": 543874,
+      "previewFileSize": 76166,
+      "source": {
+        "name": "Project Gutenberg",
+        "url": "https://www.gutenberg.org/ebooks/35"
+      }
+    },
+    {
+      "slug": "war-of-the-worlds",
+      "title": "The War of the Worlds",
+      "author": "H. G. Wells",
+      "translator": null,
+      "year": 1898,
+      "yearLabel": {
+        "ka": "1898 წ.",
+        "en": "1898"
+      },
+      "language": "en",
+      "category": "scifi",
+      "isFree": false,
+      "tags": [
+        "aliens",
+        "classic"
+      ],
+      "description": {
+        "ka": "მარსიდან გამოგზავნილი ცილინდრები ინგლისის მინდვრებზე ეცემა — და კაცობრიობა ხვდება, რომ სამყაროში არც მარტოა და არც ყველაზე ძლიერი. უცხოპლანეტელთა შემოსევის პირველი დიდი რომანი.",
+        "en": "Cylinders from Mars fall on the English countryside — and humanity learns it is neither alone nor the strongest. The original alien invasion novel."
+      },
+      "rating": 4.3,
+      "ratingCount": 690,
+      "readers": 4250,
+      "pages": 217,
+      "previewPages": 17,
+      "words": 59738,
+      "readingMinutes": 260,
+      "chapters": [
+        {
+          "title": "Book One — the Coming of the Martians",
+          "page": 5,
+          "level": 0,
+          "isPart": true
+        },
+        {
+          "title": "I. The Eve of the War",
+          "page": 6,
+          "level": 1
+        },
+        {
+          "title": "II. The Falling Star",
+          "page": 14,
+          "level": 1
+        },
+        {
+          "title": "III. On Horsell Common",
+          "page": 19,
+          "level": 1
+        },
+        {
+          "title": "IV. The Cylinder Opens",
+          "page": 23,
+          "level": 1
+        },
+        {
+          "title": "V. The Heat-Ray",
+          "page": 27,
+          "level": 1
+        },
+        {
+          "title": "VI. The Heat-Ray in the Chobham Road",
+          "page": 33,
+          "level": 1
+        },
+        {
+          "title": "VII. How I Reached Home",
+          "page": 36,
+          "level": 1
+        },
+        {
+          "title": "VIII. Friday Night",
+          "page": 41,
+          "level": 1
+        },
+        {
+          "title": "IX. The Fighting Begins",
+          "page": 45,
+          "level": 1
+        },
+        {
+          "title": "X. In the Storm",
+          "page": 52,
+          "level": 1
+        },
+        {
+          "title": "XI. At the Window",
+          "page": 60,
+          "level": 1
+        },
+        {
+          "title": "XII. What I Saw of the Destruction of Weybridge and Shepperton",
+          "page": 67,
+          "level": 1
+        },
+        {
+          "title": "XIII. How I Fell in with the Curate",
+          "page": 80,
+          "level": 1
+        },
+        {
+          "title": "XIV. In London",
+          "page": 87,
+          "level": 1
+        },
+        {
+          "title": "XV. What Had Happened in Surrey",
+          "page": 100,
+          "level": 1
+        },
+        {
+          "title": "XVI. The Exodus from London",
+          "page": 110,
+          "level": 1
+        },
+        {
+          "title": "XVII. The “Thunder Child”",
+          "page": 125,
+          "level": 1
+        },
+        {
+          "title": "Book Two — the Earth Under the Martians",
+          "page": 137,
+          "level": 0,
+          "isPart": true
+        },
+        {
+          "title": "I. Under Foot",
+          "page": 138,
+          "level": 1
+        },
+        {
+          "title": "II. What We Saw from the Ruined House",
+          "page": 147,
+          "level": 1
+        },
+        {
+          "title": "III. The Days of Imprisonment",
+          "page": 158,
+          "level": 1
+        },
+        {
+          "title": "IV. The Death of the Curate",
+          "page": 165,
+          "level": 1
+        },
+        {
+          "title": "V. The Stillness",
+          "page": 171,
+          "level": 1
+        },
+        {
+          "title": "VI. The Work of Fifteen Days",
+          "page": 175,
+          "level": 1
+        },
+        {
+          "title": "VII. The Man on Putney Hill",
+          "page": 179,
+          "level": 1
+        },
+        {
+          "title": "VIII. Dead London",
+          "page": 197,
+          "level": 1
+        },
+        {
+          "title": "IX. Wreckage",
+          "page": 207,
+          "level": 1
+        },
+        {
+          "title": "X. The Epilogue",
+          "page": 213,
+          "level": 1
+        }
+      ],
+      "file": "war-of-the-worlds.pdf",
+      "previewFile": "war-of-the-worlds.preview.pdf",
+      "fileSize": 979693,
+      "previewFileSize": 95653,
+      "source": {
+        "name": "Project Gutenberg",
+        "url": "https://www.gutenberg.org/ebooks/36"
+      }
+    },
+    {
+      "slug": "adventures-of-sherlock-holmes",
+      "title": "The Adventures of Sherlock Holmes",
+      "author": "Arthur Conan Doyle",
+      "translator": null,
+      "year": 1892,
+      "yearLabel": {
+        "ka": "1892 წ.",
+        "en": "1892"
+      },
+      "language": "en",
+      "category": "mystery",
+      "isFree": false,
+      "tags": [
+        "detective",
+        "short stories"
+      ],
+      "description": {
+        "ka": "თორმეტი საქმე ბეიკერ-სტრიტიდან: შერლოკ ჰოლმსი და დოქტორი უოტსონი ლონდონის ყველაზე უცნაურ საიდუმლოებებს დედუქციის ძალით ხსნიან. მათ შორის „სკანდალი ბოჰემიაში“ და „წითურთა კავშირი“.",
+        "en": "Twelve cases from Baker Street: Sherlock Holmes and Dr Watson untangle London's strangest mysteries by the power of deduction. Includes \"A Scandal in Bohemia\" and \"The Red-Headed League\"."
+      },
+      "rating": 4.8,
+      "ratingCount": 1320,
+      "readers": 7900,
+      "pages": 349,
+      "previewPages": 16,
+      "words": 104350,
+      "readingMinutes": 454,
+      "chapters": [
+        {
+          "title": "I. A Scandal in Bohemia",
+          "page": 4,
+          "level": 0
+        },
+        {
+          "title": "II. The Red-Headed League",
+          "page": 34,
+          "level": 0
+        },
+        {
+          "title": "III. A Case of Identity",
+          "page": 64,
+          "level": 0
+        },
+        {
+          "title": "IV. The Boscombe Valley Mystery",
+          "page": 87,
+          "level": 0
+        },
+        {
+          "title": "V. The Five Orange Pips",
+          "page": 118,
+          "level": 0
+        },
+        {
+          "title": "VI. The Man with the Twisted Lip",
+          "page": 143,
+          "level": 0
+        },
+        {
+          "title": "VII. The Adventure of the Blue Carbuncle",
+          "page": 173,
+          "level": 0
+        },
+        {
+          "title": "VIII. The Adventure of the Speckled Band",
+          "page": 199,
+          "level": 0
+        },
+        {
+          "title": "IX. The Adventure of the Engineer’s Thumb",
+          "page": 231,
+          "level": 0
+        },
+        {
+          "title": "X. The Adventure of the Noble Bachelor",
+          "page": 258,
+          "level": 0
+        },
+        {
+          "title": "XI. The Adventure of the Beryl Coronet",
+          "page": 286,
+          "level": 0
+        },
+        {
+          "title": "XII. The Adventure of the Copper Beeches",
+          "page": 317,
+          "level": 0
+        }
+      ],
+      "file": "adventures-of-sherlock-holmes.pdf",
+      "previewFile": "adventures-of-sherlock-holmes.preview.pdf",
+      "fileSize": 1620406,
+      "previewFileSize": 95689,
+      "source": {
+        "name": "Project Gutenberg",
+        "url": "https://www.gutenberg.org/ebooks/1661"
+      }
+    },
+    {
+      "slug": "hound-of-the-baskervilles",
+      "title": "The Hound of the Baskervilles",
+      "author": "Arthur Conan Doyle",
+      "translator": null,
+      "year": 1902,
+      "yearLabel": {
+        "ka": "1902 წ.",
+        "en": "1902"
+      },
+      "language": "en",
+      "category": "mystery",
+      "isFree": false,
+      "tags": [
+        "detective",
+        "classic"
+      ],
+      "description": {
+        "ka": "ბასკერვილების გვარს წყევლა დაჰყვება — დევონის ჭაობებში ზღაპრული ძაღლის აჩრდილი დადის. შერლოკ ჰოლმსის ყველაზე ცნობილი საქმე.",
+        "en": "A family curse, a spectral hound on the Devon moors, and Sherlock Holmes's most famous case."
+      },
+      "rating": 4.7,
+      "ratingCount": 1120,
+      "readers": 6700,
+      "pages": 284,
+      "previewPages": 16,
+      "words": 59018,
+      "readingMinutes": 257,
+      "chapters": [
+        {
+          "title": "Chapter 1 · Mr. Sherlock Holmes",
+          "page": 4,
+          "level": 0
+        },
+        {
+          "title": "Chapter 2 · The Curse of the Baskervilles",
+          "page": 15,
+          "level": 0
+        },
+        {
+          "title": "Chapter 3 · The Problem",
+          "page": 31,
+          "level": 0
+        },
+        {
+          "title": "Chapter 4 · Sir Henry Baskerville",
+          "page": 46,
+          "level": 0
+        },
+        {
+          "title": "Chapter 5 · Three Broken Threads",
+          "page": 67,
+          "level": 0
+        },
+        {
+          "title": "Chapter 6 · Baskerville Hall",
+          "page": 85,
+          "level": 0
+        },
+        {
+          "title": "Chapter 7 · The Stapletons of Merripit House",
+          "page": 102,
+          "level": 0
+        },
+        {
+          "title": "Chapter 8 · First Report of Dr. Watson",
+          "page": 126,
+          "level": 0
+        },
+        {
+          "title": "Chapter 9 · The Light upon the Moor [Second Report of Dr. Watson]",
+          "page": 138,
+          "level": 0
+        },
+        {
+          "title": "Chapter 10 · Extract from the Diary of Dr. Watson",
+          "page": 168,
+          "level": 0
+        },
+        {
+          "title": "Chapter 11 · The Man on the Tor",
+          "page": 184,
+          "level": 0
+        },
+        {
+          "title": "Chapter 12 · Death on the Moor",
+          "page": 205,
+          "level": 0
+        },
+        {
+          "title": "Chapter 13 · Fixing the Nets",
+          "page": 229,
+          "level": 0
+        },
+        {
+          "title": "Chapter 14 · The Hound of the Baskervilles",
+          "page": 246,
+          "level": 0
+        },
+        {
+          "title": "Chapter 15 · A Retrospection",
+          "page": 266,
+          "level": 0
+        }
+      ],
+      "file": "hound-of-the-baskervilles.pdf",
+      "previewFile": "hound-of-the-baskervilles.preview.pdf",
+      "fileSize": 975593,
+      "previewFileSize": 83535,
+      "source": {
+        "name": "Project Gutenberg",
+        "url": "https://www.gutenberg.org/ebooks/2852"
+      }
+    },
+    {
+      "slug": "frankenstein",
+      "title": "Frankenstein",
+      "author": "Mary Shelley",
+      "translator": null,
+      "year": 1818,
+      "yearLabel": {
+        "ka": "1818 წ.",
+        "en": "1818"
+      },
+      "language": "en",
+      "category": "gothic",
+      "isFree": false,
+      "tags": [
+        "gothic",
+        "science"
+      ],
+      "description": {
+        "ka": "ახალგაზრდა მეცნიერი ვიქტორ ფრანკენშტაინი სიცოცხლეს ქმნის — და შემდეგ საკუთარ ქმნილებას ზურგს აქცევს. რომანი პასუხისმგებლობაზე, მარტოობასა და ცოდნის ფასზე.",
+        "en": "Young scientist Victor Frankenstein creates life — and then abandons his creation. A novel about responsibility, loneliness and the cost of knowledge."
+      },
+      "rating": 4.6,
+      "ratingCount": 1010,
+      "readers": 6300,
+      "pages": 253,
+      "previewPages": 17,
+      "words": 74919,
+      "readingMinutes": 326,
+      "chapters": [
+        {
+          "title": "Letter 1",
+          "page": 5,
+          "level": 0
+        },
+        {
+          "title": "Letter 2",
+          "page": 10,
+          "level": 0
+        },
+        {
+          "title": "Letter 3",
+          "page": 15,
+          "level": 0
+        },
+        {
+          "title": "Letter 4",
+          "page": 17,
+          "level": 0
+        },
+        {
+          "title": "Chapter 1",
+          "page": 26,
+          "level": 0
+        },
+        {
+          "title": "Chapter 2",
+          "page": 32,
+          "level": 0
+        },
+        {
+          "title": "Chapter 3",
+          "page": 40,
+          "level": 0
+        },
+        {
+          "title": "Chapter 4",
+          "page": 49,
+          "level": 0
+        },
+        {
+          "title": "Chapter 5",
+          "page": 58,
+          "level": 0
+        },
+        {
+          "title": "Chapter 6",
+          "page": 66,
+          "level": 0
+        },
+        {
+          "title": "Chapter 7",
+          "page": 75,
+          "level": 0
+        },
+        {
+          "title": "Chapter 8",
+          "page": 87,
+          "level": 0
+        },
+        {
+          "title": "Chapter 9",
+          "page": 97,
+          "level": 0
+        },
+        {
+          "title": "Chapter 10",
+          "page": 104,
+          "level": 0
+        },
+        {
+          "title": "Chapter 11",
+          "page": 112,
+          "level": 0
+        },
+        {
+          "title": "Chapter 12",
+          "page": 121,
+          "level": 0
+        },
+        {
+          "title": "Chapter 13",
+          "page": 128,
+          "level": 0
+        },
+        {
+          "title": "Chapter 14",
+          "page": 135,
+          "level": 0
+        },
+        {
+          "title": "Chapter 15",
+          "page": 141,
+          "level": 0
+        },
+        {
+          "title": "Chapter 16",
+          "page": 151,
+          "level": 0
+        },
+        {
+          "title": "Chapter 17",
+          "page": 161,
+          "level": 0
+        },
+        {
+          "title": "Chapter 18",
+          "page": 167,
+          "level": 0
+        },
+        {
+          "title": "Chapter 19",
+          "page": 177,
+          "level": 0
+        },
+        {
+          "title": "Chapter 20",
+          "page": 186,
+          "level": 0
+        },
+        {
+          "title": "Chapter 21",
+          "page": 197,
+          "level": 0
+        },
+        {
+          "title": "Chapter 22",
+          "page": 209,
+          "level": 0
+        },
+        {
+          "title": "Chapter 23",
+          "page": 220,
+          "level": 0
+        },
+        {
+          "title": "Chapter 24",
+          "page": 228,
+          "level": 0
+        }
+      ],
+      "file": "frankenstein.pdf",
+      "previewFile": "frankenstein.preview.pdf",
+      "fileSize": 1187906,
+      "previewFileSize": 89325,
+      "source": {
+        "name": "Project Gutenberg",
+        "url": "https://www.gutenberg.org/ebooks/84"
+      }
+    },
+    {
+      "slug": "dracula",
+      "title": "Dracula",
+      "author": "Bram Stoker",
+      "translator": null,
+      "year": 1897,
+      "yearLabel": {
+        "ka": "1897 წ.",
+        "en": "1897"
+      },
+      "language": "en",
+      "category": "gothic",
+      "isFree": false,
+      "tags": [
+        "vampires",
+        "gothic"
+      ],
+      "description": {
+        "ka": "იურისტი ჯონათან ჰარკერი ტრანსილვანიაში, გრაფის ციხე-დარბაზში მიემგზავრება გარიგების დასადებად... დღიურებითა და წერილებით მოთხრობილი ვამპირის კლასიკური ისტორია.",
+        "en": "Solicitor Jonathan Harker travels to a castle in Transylvania to close a property deal... The vampire classic, told through diaries, letters and newspaper clippings."
+      },
+      "rating": 4.5,
+      "ratingCount": 1180,
+      "readers": 7200,
+      "pages": 502,
+      "previewPages": 17,
+      "words": 160246,
+      "readingMinutes": 697,
+      "chapters": [
+        {
+          "title": "Chapter I · Jonathan Harker’s Journal",
+          "page": 5,
+          "level": 0
+        },
+        {
+          "title": "Chapter II · JONATHAN HARKER’S JOURNAL—_continued_",
+          "page": 23,
+          "level": 0
+        },
+        {
+          "title": "Chapter III · JONATHAN HARKER’S JOURNAL—_continued_",
+          "page": 40,
+          "level": 0
+        },
+        {
+          "title": "Chapter IV · JONATHAN HARKER’S JOURNAL—_continued_",
+          "page": 57,
+          "level": 0
+        },
+        {
+          "title": "Chapter V · _Letter from Miss Mina Murray to Miss Lucy Westenra._",
+          "page": 76,
+          "level": 0
+        },
+        {
+          "title": "Chapter VI · Mina Murray’s Journal",
+          "page": 87,
+          "level": 0
+        },
+        {
+          "title": "Chapter VII · Cutting from “the Dailygraph,” 8 August",
+          "page": 104,
+          "level": 0
+        },
+        {
+          "title": "Chapter VIII · Mina Murray’s Journal",
+          "page": 123,
+          "level": 0
+        },
+        {
+          "title": "Chapter IX · _Letter, Mina Harker to Lucy Westenra._",
+          "page": 143,
+          "level": 0
+        },
+        {
+          "title": "Chapter X · _Letter, Dr. Seward to Hon. Arthur Holmwood._",
+          "page": 161,
+          "level": 0
+        },
+        {
+          "title": "Chapter XI · _Lucy Westenra’s Diary._",
+          "page": 179,
+          "level": 0
+        },
+        {
+          "title": "Chapter XII · Dr. Seward’s Diary",
+          "page": 195,
+          "level": 0
+        },
+        {
+          "title": "Chapter XIII",
+          "page": 217,
+          "level": 0
+        },
+        {
+          "title": "Chapter XIV · Mina Harker’s Journal",
+          "page": 237,
+          "level": 0
+        },
+        {
+          "title": "Chapter XV",
+          "page": 257,
+          "level": 0
+        },
+        {
+          "title": "Chapter XVI · DR. SEWARD’S DIARY—_continued_",
+          "page": 275,
+          "level": 0
+        },
+        {
+          "title": "Chapter XVII · DR. SEWARD’S DIARY—_continued_",
+          "page": 289,
+          "level": 0
+        },
+        {
+          "title": "Chapter XVIII · Dr. Seward’s Diary",
+          "page": 307,
+          "level": 0
+        },
+        {
+          "title": "Chapter XIX · Jonathan Harker’s Journal",
+          "page": 328,
+          "level": 0
+        },
+        {
+          "title": "Chapter XX · Jonathan Harker’s Journal",
+          "page": 345,
+          "level": 0
+        },
+        {
+          "title": "Chapter XXI · Dr. Seward’s Diary",
+          "page": 364,
+          "level": 0
+        },
+        {
+          "title": "Chapter XXII · Jonathan Harker’s Journal",
+          "page": 382,
+          "level": 0
+        },
+        {
+          "title": "Chapter XXIII · Dr. Seward’s Diary",
+          "page": 398,
+          "level": 0
+        },
+        {
+          "title": "Chapter XXIV · Dr. Seward’s Phonograph Diary, Spoken by Van Helsing",
+          "page": 416,
+          "level": 0
+        },
+        {
+          "title": "Chapter XXV · Dr. Seward’s Diary",
+          "page": 436,
+          "level": 0
+        },
+        {
+          "title": "Chapter XXVI · Dr. Seward’s Diary",
+          "page": 455,
+          "level": 0
+        },
+        {
+          "title": "Chapter XXVII · Mina Harker’s Journal",
+          "page": 478,
+          "level": 0
+        }
+      ],
+      "file": "dracula.pdf",
+      "previewFile": "dracula.preview.pdf",
+      "fileSize": 2436491,
+      "previewFileSize": 102983,
+      "source": {
+        "name": "Project Gutenberg",
+        "url": "https://www.gutenberg.org/ebooks/345"
+      }
+    },
+    {
+      "slug": "jekyll-and-hyde",
+      "title": "Strange Case of Dr Jekyll and Mr Hyde",
+      "author": "Robert Louis Stevenson",
+      "translator": null,
+      "year": 1886,
+      "yearLabel": {
+        "ka": "1886 წ.",
+        "en": "1886"
+      },
+      "language": "en",
+      "category": "gothic",
+      "isFree": false,
+      "tags": [
+        "novella",
+        "gothic"
+      ],
+      "description": {
+        "ka": "ლონდონის ქუჩებში ბოროტი მისტერ ჰაიდი დადის, მისი კავშირი პატივცემულ დოქტორ ჯეკილთან კი ადვოკატ ატერსონს მოსვენებას არ აძლევს. მოკლე რომანი ადამიანის ორმაგ ბუნებაზე.",
+        "en": "The sinister Mr Hyde stalks the streets of London, and his connection to the respected Dr Jekyll gives the lawyer Utterson no rest. A short novel about the double nature of man."
+      },
+      "rating": 4.5,
+      "ratingCount": 840,
+      "readers": 5100,
+      "pages": 87,
+      "previewPages": 11,
+      "words": 25531,
+      "readingMinutes": 111,
+      "chapters": [
+        {
+          "title": "Story of the Door",
+          "page": 4,
+          "level": 0
+        },
+        {
+          "title": "Search for Mr. Hyde",
+          "page": 12,
+          "level": 0
+        },
+        {
+          "title": "Dr. Jekyll Was Quite at Ease",
+          "page": 22,
+          "level": 0
+        },
+        {
+          "title": "The Carew Murder Case",
+          "page": 25,
+          "level": 0
+        },
+        {
+          "title": "Incident of the Letter",
+          "page": 31,
+          "level": 0
+        },
+        {
+          "title": "Incident of Dr. Lanyon",
+          "page": 37,
+          "level": 0
+        },
+        {
+          "title": "Incident at the Window",
+          "page": 42,
+          "level": 0
+        },
+        {
+          "title": "The Last Night",
+          "page": 44,
+          "level": 0
+        },
+        {
+          "title": "Dr. Lanyon’s Narrative",
+          "page": 58,
+          "level": 0
+        },
+        {
+          "title": "Henry Jekyll’s Full Statement of the Case",
+          "page": 67,
+          "level": 0
+        }
+      ],
+      "file": "jekyll-and-hyde.pdf",
+      "previewFile": "jekyll-and-hyde.preview.pdf",
+      "fileSize": 437043,
+      "previewFileSize": 78695,
+      "source": {
+        "name": "Project Gutenberg",
+        "url": "https://www.gutenberg.org/ebooks/43"
+      }
+    },
+    {
+      "slug": "treasure-island",
+      "title": "Treasure Island",
+      "author": "Robert Louis Stevenson",
+      "translator": null,
+      "year": 1883,
+      "yearLabel": {
+        "ka": "1883 წ.",
+        "en": "1883"
+      },
+      "language": "en",
+      "category": "adventure",
+      "isFree": false,
+      "tags": [
+        "pirates",
+        "sea"
+      ],
+      "description": {
+        "ka": "ახალგაზრდა ჯიმ ჰოკინსს განძის რუკა უვარდება ხელში — და ის ზღვაში გადის, სადაც ცალფეხა ჯონ სილვერი ელოდება. მეკობრეების ამბავი, რომელმაც ყველა შემდგომი მეკობრული ამბავი შექმნა.",
+        "en": "Young Jim Hawkins finds a treasure map and sets sail — straight into the company of the one-legged Long John Silver. The pirate story that shaped every pirate story after it."
+      },
+      "rating": 4.5,
+      "ratingCount": 720,
+      "readers": 4600,
+      "pages": 243,
+      "previewPages": 17,
+      "words": 67653,
+      "readingMinutes": 294,
+      "chapters": [
+        {
+          "title": "PART ONE—The Old Buccaneer",
+          "page": 5,
+          "level": 0,
+          "isPart": true
+        },
+        {
+          "title": "I. The Old Sea-dog at the Admiral Benbow",
+          "page": 6,
+          "level": 1
+        },
+        {
+          "title": "II. Black Dog Appears and Disappears",
+          "page": 13,
+          "level": 1
+        },
+        {
+          "title": "III. The Black Spot",
+          "page": 20,
+          "level": 1
+        },
+        {
+          "title": "IV. The Sea-chest",
+          "page": 27,
+          "level": 1
+        },
+        {
+          "title": "V. The Last of the Blind Man",
+          "page": 34,
+          "level": 1
+        },
+        {
+          "title": "VI. The Captain’s Papers",
+          "page": 40,
+          "level": 1
+        },
+        {
+          "title": "PART TWO—The Sea-cook",
+          "page": 47,
+          "level": 0,
+          "isPart": true
+        },
+        {
+          "title": "VII. I Go to Bristol",
+          "page": 48,
+          "level": 1
+        },
+        {
+          "title": "VIII. At the Sign of the Spy-glass",
+          "page": 56,
+          "level": 1
+        },
+        {
+          "title": "IX. Powder and Arms",
+          "page": 62,
+          "level": 1
+        },
+        {
+          "title": "X. The Voyage",
+          "page": 68,
+          "level": 1
+        },
+        {
+          "title": "XI. What I Heard in the Apple-Barrel",
+          "page": 74,
+          "level": 1
+        },
+        {
+          "title": "XII. Council of War",
+          "page": 81,
+          "level": 1
+        },
+        {
+          "title": "PART THREE—My Shore Adventure",
+          "page": 87,
+          "level": 0,
+          "isPart": true
+        },
+        {
+          "title": "XIII. How I Began My Shore Adventure",
+          "page": 88,
+          "level": 1
+        },
+        {
+          "title": "XIV. The First Blow",
+          "page": 94,
+          "level": 1
+        },
+        {
+          "title": "XV. The Man of the Island",
+          "page": 100,
+          "level": 1
+        },
+        {
+          "title": "PART FOUR—The Stockade",
+          "page": 108,
+          "level": 0,
+          "isPart": true
+        },
+        {
+          "title": "XVI. Narrative Continued by the Doctor: How the Ship Was Abandoned",
+          "page": 109,
+          "level": 1
+        },
+        {
+          "title": "XXVII. Narrative Continued by the Doctor: The Jolly-boat’s Last Trip",
+          "page": 115,
+          "level": 1
+        },
+        {
+          "title": "XVIII. Narrative Continued by the Doctor: End of the First Day’s Fighting",
+          "page": 120,
+          "level": 1
+        },
+        {
+          "title": "XIX. Narrative Resumed by Jim Hawkins: The Garrison in the Stockade",
+          "page": 126,
+          "level": 1
+        },
+        {
+          "title": "XX. Silver’s Embassy",
+          "page": 133,
+          "level": 1
+        },
+        {
+          "title": "XXI. The Attack",
+          "page": 140,
+          "level": 1
+        },
+        {
+          "title": "PART FIVE—My Sea Adventure",
+          "page": 147,
+          "level": 0,
+          "isPart": true
+        },
+        {
+          "title": "XXII. How I Began My Sea Adventure",
+          "page": 148,
+          "level": 1
+        },
+        {
+          "title": "XXIII. The Ebb-tide Runs",
+          "page": 155,
+          "level": 1
+        },
+        {
+          "title": "XXIV. The Cruise of the Coracle",
+          "page": 161,
+          "level": 1
+        },
+        {
+          "title": "XXV. I Strike the Jolly Roger",
+          "page": 168,
+          "level": 1
+        },
+        {
+          "title": "XXVI. Israel Hands",
+          "page": 174,
+          "level": 1
+        },
+        {
+          "title": "XXVII. “Pieces of Eight”",
+          "page": 183,
+          "level": 1
+        },
+        {
+          "title": "PART SIX—Captain Silver",
+          "page": 190,
+          "level": 0,
+          "isPart": true
+        },
+        {
+          "title": "XXVIII. In the Enemy’s Camp",
+          "page": 191,
+          "level": 1
+        },
+        {
+          "title": "XXIX. The Black Spot Again",
+          "page": 200,
+          "level": 1
+        },
+        {
+          "title": "XXX. On Parole",
+          "page": 207,
+          "level": 1
+        },
+        {
+          "title": "XXXI. The Treasure-hunt—Flint’s Pointer",
+          "page": 215,
+          "level": 1
+        },
+        {
+          "title": "XXXII. The Treasure-hunt—The Voice Among the Trees",
+          "page": 223,
+          "level": 1
+        },
+        {
+          "title": "XXXIII. The Fall of a Chieftain",
+          "page": 230,
+          "level": 1
+        },
+        {
+          "title": "XXXIV. And Last",
+          "page": 237,
+          "level": 1
+        }
+      ],
+      "file": "treasure-island.pdf",
+      "previewFile": "treasure-island.preview.pdf",
+      "fileSize": 1091823,
+      "previewFileSize": 100715,
+      "source": {
+        "name": "Project Gutenberg",
+        "url": "https://www.gutenberg.org/ebooks/120"
+      }
+    },
+    {
+      "slug": "call-of-the-wild",
+      "title": "The Call of the Wild",
+      "author": "Jack London",
+      "translator": null,
+      "year": 1903,
+      "yearLabel": {
+        "ka": "1903 წ.",
+        "en": "1903"
+      },
+      "language": "en",
+      "category": "adventure",
+      "isFree": false,
+      "tags": [
+        "dogs",
+        "north"
+      ],
+      "description": {
+        "ka": "ძაღლი ბაკი კალიფორნიის თბილი სახლიდან კლონდაიკის თოვლიან უდაბნოში ხვდება, სადაც ცხოვრება მკაცრია, ველური ბუნების ძახილი კი — სულ უფრო ხმამაღალი.",
+        "en": "Buck, a pampered dog from California, is stolen and sold into the brutal life of a Klondike sled team — where the call of the wild grows louder every day."
+      },
+      "rating": 4.4,
+      "ratingCount": 610,
+      "readers": 3900,
+      "pages": 105,
+      "previewPages": 12,
+      "words": 31716,
+      "readingMinutes": 138,
+      "chapters": [
+        {
+          "title": "Chapter I · Into the Primitive",
+          "page": 4,
+          "level": 0
+        },
+        {
+          "title": "Chapter II · The Law of Club and Fang",
+          "page": 16,
+          "level": 0
+        },
+        {
+          "title": "Chapter III · The Dominant Primordial Beast",
+          "page": 27,
+          "level": 0
+        },
+        {
+          "title": "Chapter IV · Who Has Won to Mastership",
+          "page": 43,
+          "level": 0
+        },
+        {
+          "title": "Chapter V · The Toil of Trace and Trail",
+          "page": 53,
+          "level": 0
+        },
+        {
+          "title": "Chapter VI · For the Love of a Man",
+          "page": 70,
+          "level": 0
+        },
+        {
+          "title": "Chapter VII · The Sounding of the Call",
+          "page": 86,
+          "level": 0
+        }
+      ],
+      "file": "call-of-the-wild.pdf",
+      "previewFile": "call-of-the-wild.preview.pdf",
+      "fileSize": 522543,
+      "previewFileSize": 79658,
+      "source": {
+        "name": "Project Gutenberg",
+        "url": "https://www.gutenberg.org/ebooks/215"
+      }
+    },
+    {
+      "slug": "around-the-world-in-eighty-days",
+      "title": "Around the World in Eighty Days",
+      "author": "Jules Verne",
+      "translator": "George Makepeace Towle",
+      "year": 1873,
+      "yearLabel": {
+        "ka": "1873 წ.",
+        "en": "1873"
+      },
+      "language": "en",
+      "category": "adventure",
+      "isFree": false,
+      "tags": [
+        "travel",
+        "classic"
+      ],
+      "description": {
+        "ka": "ფილეას ფოგი ნიძლავს დებს, რომ დედამიწას 80 დღეში შემოუვლის — და მსახურ პასპარტუსთან ერთად მატარებლებით, გემებით და სპილოთიც კი მიემგზავრება.",
+        "en": "Phileas Fogg bets that he can circle the globe in eighty days — and sets off with his servant Passepartout by train, steamship and even elephant."
+      },
+      "rating": 4.4,
+      "ratingCount": 650,
+      "readers": 4100,
+      "pages": 249,
+      "previewPages": 17,
+      "words": 62196,
+      "readingMinutes": 270,
+      "chapters": [
+        {
+          "title": "Chapter I · In Which Phileas Fogg and Passepartout Accept Each Other, the One as Master, the Other as Man",
+          "page": 5,
+          "level": 0
+        },
+        {
+          "title": "Chapter II · In Which Passepartout Is Convinced That He Has at Last Found His Ideal",
+          "page": 11,
+          "level": 0
+        },
+        {
+          "title": "Chapter III · In Which a Conversation Takes Place Which Seems Likely to Cost Phileas Fogg Dear",
+          "page": 15,
+          "level": 0
+        },
+        {
+          "title": "Chapter IV · In Which Phileas Fogg Astounds Passepartout, His Servant",
+          "page": 23,
+          "level": 0
+        },
+        {
+          "title": "Chapter V · In Which a New Species of Funds, Unknown to the Moneyed Men, Appears on ’Change",
+          "page": 27,
+          "level": 0
+        },
+        {
+          "title": "Chapter VI · In Which Fix, the Detective, Betrays a Very Natural Impatience",
+          "page": 31,
+          "level": 0
+        },
+        {
+          "title": "Chapter VII · Which Once More Demonstrates the Uselessness of Passports as Aids to Detectives",
+          "page": 36,
+          "level": 0
+        },
+        {
+          "title": "Chapter VIII · In Which Passepartout Talks Rather More, Perhaps, Than Is Prudent",
+          "page": 40,
+          "level": 0
+        },
+        {
+          "title": "Chapter IX · In Which the Red Sea and the Indian Ocean Prove Propitious to the Designs of Phileas Fogg",
+          "page": 45,
+          "level": 0
+        },
+        {
+          "title": "Chapter X · In Which Passepartout Is Only Too Glad to Get Off with the Loss of His Shoes",
+          "page": 51,
+          "level": 0
+        },
+        {
+          "title": "Chapter XI · In Which Phileas Fogg Secures a Curious Means of Conveyance at a Fabulous Price",
+          "page": 57,
+          "level": 0
+        },
+        {
+          "title": "Chapter XII · In Which Phileas Fogg and His Companions Venture Across the Indian Forests, and What Ensued",
+          "page": 67,
+          "level": 0
+        },
+        {
+          "title": "Chapter XIII · In Which Passepartout Receives a New Proof That Fortune Favors the Brave",
+          "page": 75,
+          "level": 0
+        },
+        {
+          "title": "Chapter XIV · In Which Phileas Fogg Descends the Whole Length of the Beautiful Valley of the Ganges Without Ever Thinking of Seeing It",
+          "page": 83,
+          "level": 0
+        },
+        {
+          "title": "Chapter XV · In Which the Bag of Banknotes Disgorges Some Thousands of Pounds More",
+          "page": 90,
+          "level": 0
+        },
+        {
+          "title": "Chapter XVI · In Which Fix Does Not Seem to Understand in the Least What Is Said to Him",
+          "page": 98,
+          "level": 0
+        },
+        {
+          "title": "Chapter XVII · Showing What Happened on the Voyage from Singapore to Hong Kong",
+          "page": 104,
+          "level": 0
+        },
+        {
+          "title": "Chapter XVIII · In Which Phileas Fogg, Passepartout, and Fix Go Each About His Business",
+          "page": 111,
+          "level": 0
+        },
+        {
+          "title": "Chapter XIX · In Which Passepartout Takes a Too Great Interest in His Master, and What Comes of It",
+          "page": 116,
+          "level": 0
+        },
+        {
+          "title": "Chapter XX · In Which Fix Comes Face to Face with Phileas Fogg",
+          "page": 124,
+          "level": 0
+        },
+        {
+          "title": "Chapter XXI · In Which the Master of the “Tankadere” Runs Great Risk of Losing a Reward of Two Hundred Pounds",
+          "page": 131,
+          "level": 0
+        },
+        {
+          "title": "Chapter XXII · In Which Passepartout Finds Out That, Even at the Antipodes, It Is Convenient to Have Some Money in One’s Pocket",
+          "page": 140,
+          "level": 0
+        },
+        {
+          "title": "Chapter XXIII · In Which Passepartout’s Nose Becomes Outrageously Long",
+          "page": 148,
+          "level": 0
+        },
+        {
+          "title": "Chapter XXIV · During Which Mr. Fogg and Party Cross the Pacific Ocean",
+          "page": 156,
+          "level": 0
+        },
+        {
+          "title": "Chapter XXV · In Which a Slight Glimpse Is Had of San Francisco",
+          "page": 163,
+          "level": 0
+        },
+        {
+          "title": "Chapter XXVI · In Which Phileas Fogg and Party Travel by the Pacific Railroad",
+          "page": 171,
+          "level": 0
+        },
+        {
+          "title": "Chapter XXVII · In Which Passepartout Undergoes, at a Speed of Twenty Miles an Hour, a Course of Mormon History",
+          "page": 177,
+          "level": 0
+        },
+        {
+          "title": "Chapter XXVIII · In Which Passepartout Does Not Succeed in Making Anybody Listen to Reason",
+          "page": 184,
+          "level": 0
+        },
+        {
+          "title": "Chapter XXIX · In Which Certain Incidents Are Narrated Which Are Only to Be Met with on American Railroads",
+          "page": 193,
+          "level": 0
+        },
+        {
+          "title": "Chapter XXX · In Which Phileas Fogg Simply Does His Duty",
+          "page": 201,
+          "level": 0
+        },
+        {
+          "title": "Chapter XXXI · In Which Fix, the Detective, Considerably Furthers the Interests of Phileas Fogg",
+          "page": 209,
+          "level": 0
+        },
+        {
+          "title": "Chapter XXXII · In Which Phileas Fogg Engages in a Direct Struggle with Bad Fortune",
+          "page": 216,
+          "level": 0
+        },
+        {
+          "title": "Chapter XXXIII · In Which Phileas Fogg Shows Himself Equal to the Occasion",
+          "page": 221,
+          "level": 0
+        },
+        {
+          "title": "Chapter XXXIV · In Which Phileas Fogg at Last Reaches London",
+          "page": 230,
+          "level": 0
+        },
+        {
+          "title": "Chapter XXXV · In Which Phileas Fogg Does Not Have to Repeat His Orders to Passepartout Twice",
+          "page": 234,
+          "level": 0
+        },
+        {
+          "title": "Chapter XXXVI · In Which Phileas Fogg’s Name Is Once More at a Premium on ’Change",
+          "page": 240,
+          "level": 0
+        },
+        {
+          "title": "Chapter XXXVII · In Which It Is Shown That Phileas Fogg Gained Nothing by His Tour Around the World, Unless It Were Happiness",
+          "page": 245,
+          "level": 0
+        }
+      ],
+      "file": "around-the-world-in-eighty-days.pdf",
+      "previewFile": "around-the-world-in-eighty-days.preview.pdf",
+      "fileSize": 1078043,
+      "previewFileSize": 102888,
+      "source": {
+        "name": "Project Gutenberg",
+        "url": "https://www.gutenberg.org/ebooks/103"
+      }
+    },
+    {
+      "slug": "meditations",
+      "title": "Meditations",
+      "author": "Marcus Aurelius",
+      "translator": "George Long",
+      "year": 180,
+      "yearLabel": {
+        "ka": "დაახ. 180 წ.",
+        "en": "c. 180 AD"
+      },
+      "language": "en",
+      "category": "philosophy",
+      "isFree": false,
+      "tags": [
+        "stoicism",
+        "philosophy"
+      ],
+      "description": {
+        "ka": "რომის იმპერატორის პირადი ჩანაწერები, რომლებიც გამოსაქვეყნებლად არასოდეს ყოფილა განკუთვნილი — სტოიკური ფიქრები სიმშვიდეზე, მოვალეობასა და იმაზე, რა არის ნამდვილად ჩვენს ხელში.",
+        "en": "The private notebooks of a Roman emperor, never meant for publication — Stoic reflections on calm, duty and what is truly within our control."
+      },
+      "rating": 4.7,
+      "ratingCount": 1240,
+      "readers": 7600,
+      "pages": 180,
+      "previewPages": 16,
+      "words": 57307,
+      "readingMinutes": 249,
+      "chapters": [
+        {
+          "title": "The First Book",
+          "page": 4,
+          "level": 0
+        },
+        {
+          "title": "The Second Book",
+          "page": 16,
+          "level": 0
+        },
+        {
+          "title": "The Third Book",
+          "page": 23,
+          "level": 0
+        },
+        {
+          "title": "The Fourth Book",
+          "page": 33,
+          "level": 0
+        },
+        {
+          "title": "The Fifth Book",
+          "page": 50,
+          "level": 0
+        },
+        {
+          "title": "The Sixth Book",
+          "page": 67,
+          "level": 0
+        },
+        {
+          "title": "The Seventh Book",
+          "page": 84,
+          "level": 0
+        },
+        {
+          "title": "The Eighth Book",
+          "page": 102,
+          "level": 0
+        },
+        {
+          "title": "The Ninth Book",
+          "page": 120,
+          "level": 0
+        },
+        {
+          "title": "The Tenth Book",
+          "page": 136,
+          "level": 0
+        },
+        {
+          "title": "The Eleventh Book",
+          "page": 155,
+          "level": 0
+        },
+        {
+          "title": "The Twelfth Book",
+          "page": 169,
+          "level": 0
+        }
+      ],
+      "file": "meditations.pdf",
+      "previewFile": "meditations.preview.pdf",
+      "fileSize": 881066,
+      "previewFileSize": 100283,
+      "source": {
+        "name": "Project Gutenberg",
+        "url": "https://www.gutenberg.org/ebooks/2680"
+      }
+    },
+    {
+      "slug": "art-of-war",
+      "title": "The Art of War",
+      "author": "Sun Tzu",
+      "translator": "Lionel Giles",
+      "year": -500,
+      "yearLabel": {
+        "ka": "ძვ. წ. დაახ. 500 წ.",
+        "en": "c. 500 BC"
+      },
+      "language": "en",
+      "category": "philosophy",
+      "isFree": false,
+      "tags": [
+        "strategy",
+        "classic"
+      ],
+      "description": {
+        "ka": "ძველი ჩინური ტრაქტატი სტრატეგიაზე, რომელსაც დღესაც კითხულობენ გენერლები, მეწარმეები და მწვრთნელები: უმაღლესი ხელოვნება მტრის ბრძოლის გარეშე დამარცხებაა.",
+        "en": "The ancient Chinese treatise on strategy still read by generals, founders and coaches: the supreme art of war is to subdue the enemy without fighting."
+      },
+      "rating": 4.5,
+      "ratingCount": 990,
+      "readers": 6800,
+      "pages": 57,
+      "previewPages": 8,
+      "words": 12001,
+      "readingMinutes": 52,
+      "chapters": [
+        {
+          "title": "Chapter I · Laying Plans",
+          "page": 4,
+          "level": 0
+        },
+        {
+          "title": "Chapter II · Waging War",
+          "page": 7,
+          "level": 0
+        },
+        {
+          "title": "Chapter III · Attack by Stratagem",
+          "page": 10,
+          "level": 0
+        },
+        {
+          "title": "Chapter IV · Tactical Dispositions",
+          "page": 13,
+          "level": 0
+        },
+        {
+          "title": "Chapter V · Energy",
+          "page": 16,
+          "level": 0
+        },
+        {
+          "title": "Chapter VI · Weak Points and Strong",
+          "page": 19,
+          "level": 0
+        },
+        {
+          "title": "Chapter VII · Manœuvering",
+          "page": 24,
+          "level": 0
+        },
+        {
+          "title": "Chapter VIII · Variation of Tactics",
+          "page": 28,
+          "level": 0
+        },
+        {
+          "title": "Chapter IX · The Army on the March",
+          "page": 31,
+          "level": 0
+        },
+        {
+          "title": "Chapter X · Terrain",
+          "page": 37,
+          "level": 0
+        },
+        {
+          "title": "Chapter XI · The Nine Situations",
+          "page": 41,
+          "level": 0
+        },
+        {
+          "title": "Chapter XII · The Attack by Fire",
+          "page": 50,
+          "level": 0
+        },
+        {
+          "title": "Chapter XIII · The Use of Spies",
+          "page": 54,
+          "level": 0
+        }
+      ],
+      "file": "art-of-war.pdf",
+      "previewFile": "art-of-war.preview.pdf",
+      "fileSize": 241813,
+      "previewFileSize": 58999,
+      "source": {
+        "name": "Project Gutenberg",
+        "url": "https://www.gutenberg.org/ebooks/132"
+      }
+    },
+    {
+      "slug": "the-prince",
+      "title": "The Prince",
+      "author": "Niccolò Machiavelli",
+      "translator": "W. K. Marriott",
+      "year": 1532,
+      "yearLabel": {
+        "ka": "1532 წ.",
+        "en": "1532"
+      },
+      "language": "en",
+      "category": "philosophy",
+      "isFree": false,
+      "tags": [
+        "politics",
+        "power"
+      ],
+      "description": {
+        "ka": "მაკიაველის მოკლე და შეუბრალებლად გულახდილი სახელმძღვანელო ძალაუფლების მოპოვებასა და შენარჩუნებაზე. წიგნი, რომლის გამოც ავტორის სახელი ცნებად იქცა.",
+        "en": "Machiavelli's short, ruthlessly honest handbook on gaining and keeping power — the book that turned its author's name into an adjective."
+      },
+      "rating": 4.2,
+      "ratingCount": 720,
+      "readers": 4700,
+      "pages": 116,
+      "previewPages": 14,
+      "words": 30349,
+      "readingMinutes": 132,
+      "chapters": [
+        {
+          "title": "Chapter I · How Many Kinds of Principalities There Are, and by What Means They Are Acquired",
+          "page": 5,
+          "level": 0
+        },
+        {
+          "title": "Chapter II · Concerning Hereditary Principalities",
+          "page": 6,
+          "level": 0
+        },
+        {
+          "title": "Chapter III · Concerning Mixed Principalities",
+          "page": 8,
+          "level": 0
+        },
+        {
+          "title": "Chapter IV · Why the Kingdom of Darius, Conquered by Alexander, Did Not Rebel Against the Successors of Alexander at His Death",
+          "page": 18,
+          "level": 0
+        },
+        {
+          "title": "Chapter V · Concerning the Way to Govern Cities or Principalities Which Lived Under Their Own Laws Before They Were Annexed",
+          "page": 22,
+          "level": 0
+        },
+        {
+          "title": "Chapter VI · Concerning New Principalities Which Are Acquired by One’s Own Arms and Ability",
+          "page": 24,
+          "level": 0
+        },
+        {
+          "title": "Chapter VII · Concerning New Principalities Which Are Acquired Either by the Arms of Others or by Good Fortune",
+          "page": 28,
+          "level": 0
+        },
+        {
+          "title": "Chapter VIII · Concerning Those Who Have Obtained a Principality by Wickedness",
+          "page": 36,
+          "level": 0
+        },
+        {
+          "title": "Chapter IX · Concerning a CIVIL Principality",
+          "page": 41,
+          "level": 0
+        },
+        {
+          "title": "Chapter X · Concerning the Way in Which the Strength of All Principalities Ought to Be Measured",
+          "page": 46,
+          "level": 0
+        },
+        {
+          "title": "Chapter XI · Concerning Ecclesiastical Principalities",
+          "page": 49,
+          "level": 0
+        },
+        {
+          "title": "Chapter XII · How Many Kinds of Soldiery There Are, and Concerning Mercenaries",
+          "page": 52,
+          "level": 0
+        },
+        {
+          "title": "Chapter XIII · Concerning Auxiliaries, Mixed Soldiery, and One’s Own",
+          "page": 58,
+          "level": 0
+        },
+        {
+          "title": "Chapter XIV · That Which Concerns a Prince on the Subject of the Art of War",
+          "page": 63,
+          "level": 0
+        },
+        {
+          "title": "Chapter XV · Concerning Things for Which Men, and Especially Princes, Are Praised or Blamed",
+          "page": 66,
+          "level": 0
+        },
+        {
+          "title": "Chapter XVI · Concerning Liberality and Meanness",
+          "page": 68,
+          "level": 0
+        },
+        {
+          "title": "Chapter XVII · Concerning Cruelty and Clemency, and Whether It Is Better to Be Loved Than Feared",
+          "page": 71,
+          "level": 0
+        },
+        {
+          "title": "Chapter XVIII · Concerning the Way in Which Princes Should Keep Faith",
+          "page": 75,
+          "level": 0
+        },
+        {
+          "title": "Chapter XIX · That One Should Avoid Being Despised and Hated",
+          "page": 79,
+          "level": 0
+        },
+        {
+          "title": "Chapter XX · Are Fortresses, and Many Other Things to Which Princes Often Resort, Advantageous or Hurtful?",
+          "page": 91,
+          "level": 0
+        },
+        {
+          "title": "Chapter XXI · How a Prince Should Conduct Himself So as to Gain Renown",
+          "page": 96,
+          "level": 0
+        },
+        {
+          "title": "Chapter XXII · Concerning the Secretaries of Princes",
+          "page": 101,
+          "level": 0
+        },
+        {
+          "title": "Chapter XXIII · How Flatterers Should Be Avoided",
+          "page": 103,
+          "level": 0
+        },
+        {
+          "title": "Chapter XXIV · Why the Princes of Italy Have Lost Their States",
+          "page": 106,
+          "level": 0
+        },
+        {
+          "title": "Chapter XXV · What Fortune Can Effect in Human Affairs and How to Withstand Her",
+          "page": 108,
+          "level": 0
+        },
+        {
+          "title": "Chapter XXVI · An Exhortation to Liberate Italy from the Barbarians",
+          "page": 112,
+          "level": 0
+        }
+      ],
+      "file": "the-prince.pdf",
+      "previewFile": "the-prince.preview.pdf",
+      "fileSize": 527282,
+      "previewFileSize": 85183,
+      "source": {
+        "name": "Project Gutenberg",
+        "url": "https://www.gutenberg.org/ebooks/1232"
+      }
+    },
+    {
+      "slug": "alice-in-wonderland",
+      "title": "Alice's Adventures in Wonderland",
+      "author": "Lewis Carroll",
+      "translator": null,
+      "year": 1865,
+      "yearLabel": {
+        "ka": "1865 წ.",
+        "en": "1865"
+      },
+      "language": "en",
+      "category": "kids",
+      "isFree": true,
+      "tags": [
+        "fantasy",
+        "classic"
+      ],
+      "description": {
+        "ka": "ალისა თეთრ კურდღელს სორომდე მისდევს და ზღაპრულ ქვეყანაში აღმოჩნდება, სადაც ლოგიკა თავდაყირა დგას. წიგნი ყველა ასაკისთვის.",
+        "en": "Alice follows a White Rabbit down a rabbit-hole into a world where logic is turned upside down. A book for every age."
+      },
+      "rating": 4.7,
+      "ratingCount": 1400,
+      "readers": 8300,
+      "pages": 99,
+      "previewPages": 12,
+      "words": 26311,
+      "readingMinutes": 114,
+      "chapters": [
+        {
+          "title": "Chapter I · Down the Rabbit-Hole",
+          "page": 4,
+          "level": 0
+        },
+        {
+          "title": "Chapter II · The Pool of Tears",
+          "page": 11,
+          "level": 0
+        },
+        {
+          "title": "Chapter III · A Caucus-Race and a Long Tale",
+          "page": 18,
+          "level": 0
+        },
+        {
+          "title": "Chapter IV · The Rabbit Sends in a Little Bill",
+          "page": 24,
+          "level": 0
+        },
+        {
+          "title": "Chapter V · Advice from a Caterpillar",
+          "page": 33,
+          "level": 0
+        },
+        {
+          "title": "Chapter VI · Pig and Pepper",
+          "page": 41,
+          "level": 0
+        },
+        {
+          "title": "Chapter VII · A Mad Tea-Party",
+          "page": 50,
+          "level": 0
+        },
+        {
+          "title": "Chapter VIII · The Queen’s Croquet-Ground",
+          "page": 59,
+          "level": 0
+        },
+        {
+          "title": "Chapter IX · The Mock Turtle’s Story",
+          "page": 68,
+          "level": 0
+        },
+        {
+          "title": "Chapter X · The Lobster Quadrille",
+          "page": 77,
+          "level": 0
+        },
+        {
+          "title": "Chapter XI · Who Stole the Tarts?",
+          "page": 85,
+          "level": 0
+        },
+        {
+          "title": "Chapter XII · Alice’s Evidence",
+          "page": 92,
+          "level": 0
+        }
+      ],
+      "file": "alice-in-wonderland.pdf",
+      "previewFile": "alice-in-wonderland.preview.pdf",
+      "fileSize": 450751,
+      "previewFileSize": 80661,
+      "source": {
+        "name": "Project Gutenberg",
+        "url": "https://www.gutenberg.org/ebooks/11"
+      }
+    },
+    {
+      "slug": "wizard-of-oz",
+      "title": "The Wonderful Wizard of Oz",
+      "author": "L. Frank Baum",
+      "translator": null,
+      "year": 1900,
+      "yearLabel": {
+        "ka": "1900 წ.",
+        "en": "1900"
+      },
+      "language": "en",
+      "category": "kids",
+      "isFree": false,
+      "tags": [
+        "fantasy",
+        "classic"
+      ],
+      "description": {
+        "ka": "გრიგალი დოროთის კანზასიდან ჯადოსნურ ქვეყანაში, ოზში გადაიტანს. ტვინის მაძიებელ საფრთხობელასთან, გულის მაძიებელ თუნუქის კაცთან და გამბედაობის მაძიებელ ლომთან ერთად ის ზურმუხტის ქალაქისკენ მიდის.",
+        "en": "A cyclone carries Dorothy from Kansas to the magical Land of Oz. With a Scarecrow in search of a brain, a Tin Woodman in search of a heart and a Lion in search of courage, she follows the yellow brick road."
+      },
+      "rating": 4.5,
+      "ratingCount": 830,
+      "readers": 5200,
+      "pages": 147,
+      "previewPages": 15,
+      "words": 39109,
+      "readingMinutes": 170,
+      "chapters": [
+        {
+          "title": "Chapter I · The Cyclone",
+          "page": 4,
+          "level": 0
+        },
+        {
+          "title": "Chapter II · The Council with the Munchkins",
+          "page": 8,
+          "level": 0
+        },
+        {
+          "title": "Chapter III · How Dorothy Saved the Scarecrow",
+          "page": 15,
+          "level": 0
+        },
+        {
+          "title": "Chapter IV · The Road Through the Forest",
+          "page": 22,
+          "level": 0
+        },
+        {
+          "title": "Chapter V · The Rescue of the Tin Woodman",
+          "page": 27,
+          "level": 0
+        },
+        {
+          "title": "Chapter VI · The Cowardly Lion",
+          "page": 34,
+          "level": 0
+        },
+        {
+          "title": "Chapter VII · The Journey to the Great Oz",
+          "page": 40,
+          "level": 0
+        },
+        {
+          "title": "Chapter VIII · The Deadly Poppy Field",
+          "page": 46,
+          "level": 0
+        },
+        {
+          "title": "Chapter IX · The Queen of the Field Mice",
+          "page": 53,
+          "level": 0
+        },
+        {
+          "title": "Chapter X · The Guardian of the Gate",
+          "page": 58,
+          "level": 0
+        },
+        {
+          "title": "Chapter XI · The Wonderful City of Oz",
+          "page": 65,
+          "level": 0
+        },
+        {
+          "title": "Chapter XII · The Search for the Wicked Witch",
+          "page": 77,
+          "level": 0
+        },
+        {
+          "title": "Chapter XIII · The Rescue",
+          "page": 89,
+          "level": 0
+        },
+        {
+          "title": "Chapter XIV · The Winged Monkeys",
+          "page": 94,
+          "level": 0
+        },
+        {
+          "title": "Chapter XV · The Discovery of Oz, the Terrible",
+          "page": 101,
+          "level": 0
+        },
+        {
+          "title": "Chapter XVI · The Magic Art of the Great Humbug",
+          "page": 111,
+          "level": 0
+        },
+        {
+          "title": "Chapter XVII · How the Balloon Was Launched",
+          "page": 115,
+          "level": 0
+        },
+        {
+          "title": "Chapter XVIII · Away to the South",
+          "page": 119,
+          "level": 0
+        },
+        {
+          "title": "Chapter XIX · Attacked by the Fighting Trees",
+          "page": 124,
+          "level": 0
+        },
+        {
+          "title": "Chapter XX · The Dainty China Country",
+          "page": 128,
+          "level": 0
+        },
+        {
+          "title": "Chapter XXI · The Lion Becomes the King of Beasts",
+          "page": 134,
+          "level": 0
+        },
+        {
+          "title": "Chapter XXII · The Country of the Quadlings",
+          "page": 138,
+          "level": 0
+        },
+        {
+          "title": "Chapter XXIII · Glinda The Good Witch Grants Dorothy’s Wish",
+          "page": 142,
+          "level": 0
+        },
+        {
+          "title": "Chapter XXIV · Home Again",
+          "page": 147,
+          "level": 0
+        }
+      ],
+      "file": "wizard-of-oz.pdf",
+      "previewFile": "wizard-of-oz.preview.pdf",
+      "fileSize": 643191,
+      "previewFileSize": 91734,
+      "source": {
+        "name": "Project Gutenberg",
+        "url": "https://www.gutenberg.org/ebooks/55"
+      }
+    },
+    {
+      "slug": "jungle-book",
+      "title": "The Jungle Book",
+      "author": "Rudyard Kipling",
+      "translator": null,
+      "year": 1894,
+      "yearLabel": {
+        "ka": "1894 წ.",
+        "en": "1894"
+      },
+      "language": "en",
+      "category": "kids",
+      "isFree": false,
+      "tags": [
+        "animals",
+        "classic"
+      ],
+      "description": {
+        "ka": "მაუგლი, მგლების მიერ გაზრდილი ბიჭი, ჯუნგლების კანონს ბალუსა და ბაგირასგან სწავლობს, ვეფხვი შირ-ხანი კი მას თვალს არ აშორებს.",
+        "en": "Mowgli, a boy raised by wolves, learns the Law of the Jungle from Baloo and Bagheera — while the tiger Shere Khan never stops watching him."
+      },
+      "rating": 4.4,
+      "ratingCount": 700,
+      "readers": 4300,
+      "pages": 171,
+      "previewPages": 16,
+      "words": 50746,
+      "readingMinutes": 221,
+      "chapters": [
+        {
+          "title": "Mowgli’s Brothers",
+          "page": 4,
+          "level": 0
+        },
+        {
+          "title": "Hunting-Song of the Seeonee Pack",
+          "page": 27,
+          "level": 0
+        },
+        {
+          "title": "Kaa’s Hunting",
+          "page": 28,
+          "level": 0
+        },
+        {
+          "title": "Road-Song of the Bandar-Log",
+          "page": 57,
+          "level": 0
+        },
+        {
+          "title": "“Tiger! Tiger!”",
+          "page": 59,
+          "level": 0
+        },
+        {
+          "title": "Mowgli’s Song",
+          "page": 79,
+          "level": 0
+        },
+        {
+          "title": "The White Seal",
+          "page": 81,
+          "level": 0
+        },
+        {
+          "title": "Lukannon",
+          "page": 103,
+          "level": 0
+        },
+        {
+          "title": "“Rikki-Tikki-Tavi”",
+          "page": 105,
+          "level": 0
+        },
+        {
+          "title": "Darzee’s Chant",
+          "page": 124,
+          "level": 0
+        },
+        {
+          "title": "Toomai of the Elephants",
+          "page": 126,
+          "level": 0
+        },
+        {
+          "title": "Shiv and the Grasshopper",
+          "page": 148,
+          "level": 0
+        },
+        {
+          "title": "Her Majesty’s Servants",
+          "page": 150,
+          "level": 0
+        },
+        {
+          "title": "Parade Song of the Camp Animals",
+          "page": 169,
+          "level": 0
+        }
+      ],
+      "file": "jungle-book.pdf",
+      "previewFile": "jungle-book.preview.pdf",
+      "fileSize": 805383,
+      "previewFileSize": 99459,
+      "source": {
+        "name": "Project Gutenberg",
+        "url": "https://www.gutenberg.org/ebooks/236"
+      }
+    }
+  ]
+}
