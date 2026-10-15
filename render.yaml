@@ -1,0 +1,14 @@
+# One-click deploy on Render: https://render.com/deploy?repo=https://github.com/thothcher/anbani-books-api
+services:
+  - type: web
+    name: anbani-books-api
+    runtime: docker
+    plan: free
+    healthCheckPath: /health
+    envVars:
+      - key: ASPNETCORE_URLS
+        value: http://+:10000
+      - key: Teacher__Secret
+        generateValue: true
+      - key: Jwt__Secret
+        generateValue: true
