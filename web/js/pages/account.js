@@ -244,7 +244,7 @@ async function security(box) {
       <div class="field"><label class="field__label" for="s-new">${t('auth.newPassword')}</label><input class="input" id="s-new" type="password" name="newPassword" autocomplete="new-password"><span class="field__hint">${t('auth.passwordRule')}</span><span class="field__error"></span></div>
       <div class="row row--end" style="margin-top:1.25rem"><button class="btn btn--primary" type="submit">${t('account.changePassword')}</button></div>
     </form>
-    <div class="card card--pad" style="border-color:color-mix(in srgb, var(--cinnabar) 40%, var(--line))">
+    <div class="card card--pad">
       <h2 style="font-size:var(--text-lg);color:var(--cinnabar)">${t('account.dangerZone')}</h2>
       <p class="small muted">${t('account.deleteText')}</p>
       <button class="btn btn--danger" data-action="delete">${icon('trash')} ${t('account.deleteAccount')}</button>

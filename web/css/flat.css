@@ -19,8 +19,21 @@
 .dropzone:hover, .dropzone.is-over { background: var(--cinnabar-soft); }
 .plan { background: var(--card); }
 .plan.plan--popular { background: var(--espresso); }
-.membership .plan { background: rgba(232, 244, 208, 0.06); }
-.membership .plan--popular { background: rgba(232, 244, 208, 0.13); }
-.hcard { background: rgba(36, 22, 15, 0.62); }
+.membership .plan { background: rgba(224, 251, 252, 0.06); }
+.membership .plan--popular { background: rgba(224, 251, 252, 0.13); }
+.hcard { background: rgba(37, 50, 55, 0.62); }
 .book-card--list { background: var(--card); }
 .library-stats, .catalog__bar { border-color: var(--line); }
+
+/* No outlines anywhere: shapes are defined by background tone alone. */
+*, *::before, *::after { border-color: transparent !important; }
+hr { border: 0; height: 0; }
+*:not(.spinner):not(.btn__spinner):not([class*="spin"]) { border-style: none !important; }
+.btn, .input, .select, .textarea, input, select, textarea { background-color: color-mix(in srgb, var(--ink) 8%, transparent); }
+.btn--primary, .btn--accent, .btn--light, .btn--dark { background-color: var(--btn-bg); }
+.devpanel .input, .devpanel .select { background-color: #273539; }
+.plan--current { outline: 2px solid var(--forest); outline-offset: -2px; }
+/* spinners are not outlines */
+.spinner { border: 3px solid var(--paper-3) !important; border-top-color: var(--cinnabar) !important; }
+.cta.is-loading .cta__arrow::after { border: 2px solid currentColor !important; border-right-color: transparent !important; }
+.btn.is-loading::after { border: 2px solid var(--btn-fg) !important; border-right-color: transparent !important; }

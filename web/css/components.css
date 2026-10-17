@@ -217,7 +217,7 @@
 }
 .card--pad { padding: clamp(1.15rem, 2.5vw, 1.9rem); }
 .card__title { font-size: var(--text-xl); margin-bottom: 0.25rem; }
-.card--glass { background: color-mix(in srgb, var(--espresso-2) 55%, transparent); backdrop-filter: blur(18px) saturate(1.2); border-color: rgba(237, 210, 191, 0.12); }
+.card--glass { background: color-mix(in srgb, var(--espresso-2) 55%, transparent); backdrop-filter: blur(18px) saturate(1.2); border-color: rgba(194, 223, 227, 0.12); }
 .panel { background: var(--card-2); border: 1px dashed var(--line-2); border-radius: var(--radius); padding: 1rem 1.25rem; }
 
 /* ── badges, chips, stamps ───────────────────────────────────────────────── */
@@ -304,7 +304,7 @@
 .alert--danger svg { color: var(--danger); }
 .alert__title { font-weight: 700; display: block; }
 .alert code { font-size: 0.8em; background: color-mix(in srgb, var(--ink) 8%, transparent); padding: 0.05em 0.35em; border-radius: 4px; }
-.on-dark .alert { background: rgba(237, 210, 191, 0.08); color: var(--ink); }
+.on-dark .alert { background: rgba(194, 223, 227, 0.08); color: var(--ink); }
 
 /* the account banner: a floating pill under the header */
 .site-banner {
@@ -319,7 +319,7 @@
   border-radius: var(--pill);
   font-size: var(--text-sm);
   text-align: center;
-  background: rgba(42, 26, 19, 0.82);
+  background: rgba(37, 50, 55, 0.82);
   backdrop-filter: blur(14px);
   color: var(--latte);
   box-shadow: var(--shadow-2);
@@ -390,7 +390,7 @@
   align-items: flex-start;
   padding: 0.9rem 1.15rem;
   border-radius: var(--radius-l);
-  background: rgba(42, 26, 19, 0.94);
+  background: rgba(37, 50, 55, 0.94);
   backdrop-filter: blur(12px);
   color: var(--latte);
   box-shadow: var(--shadow-3);
